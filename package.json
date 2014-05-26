@@ -1,0 +1,23 @@
+{
+  "name": "mxkelsin",
+  "version": "0.0.1",
+  "description": "M-x Kelsin Blog",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Kelsin/kelsin.github.io.git"
+  },
+  "keywords": [
+    "blog",
+    "jekyll"
+  ],
+  "author": "Christopher Giroir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kelsin/kelsin.github.io/issues"
+  },
+  "homepage": "https://mx.kelsin.net/",
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "gulp-bower": "0.0.5"
+  }
+}

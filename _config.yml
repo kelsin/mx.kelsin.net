@@ -1,0 +1,11 @@
+name: M-x Kelsin
+markdown: redcarpet
+pygments: true
+exclude:
+  - .bowerrc
+  - bower.json
+  - .bundle
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - gulpfile.js
