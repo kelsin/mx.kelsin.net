@@ -3,4 +3,4 @@ _site
 _vendor
 node_modules
 css
-
+js/vendor
