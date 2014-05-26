@@ -12,3 +12,5 @@ gulp.task('bower', function() {
   gulp.src('_vendor/jquery.stellar/jquery.stellar.js')
     .pipe(gulp.dest('js/vendor/02-jquery.stellar.js'));
 });
+
+gulp.task('init', ['bower']);
