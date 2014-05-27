@@ -26,7 +26,7 @@ gulp.task('js', function() {
 });
 
 gulp.task('less', function() {
-  gulp.src('_assets/less/**/*.less')
+  gulp.src('_assets/less/main.less')
     .pipe(less())
     .pipe(prefix("last 1 version", "> 1%", "ie 8", "ie 7", { cascade: true }))
     .pipe(minify())
