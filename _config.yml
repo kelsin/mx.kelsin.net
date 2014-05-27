@@ -6,6 +6,10 @@ author:
 markdown: redcarpet
 pygments: true
 paginate: 10
+gems:
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-redirect-from
 exclude:
   - .bowerrc
   - bower.json
