@@ -2,5 +2,6 @@ _site
 .bundle
 _vendor
 node_modules
+_assets/js/vendor
 css
-js/vendor
+js

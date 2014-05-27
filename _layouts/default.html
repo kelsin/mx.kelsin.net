@@ -10,17 +10,40 @@
     <script type="text/javascript" src="//use.typekit.net/pao8vov.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-    <!-- syntax highlighting CSS -->
-    <link rel="stylesheet" href="/css/syntax.css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/main.css">
-
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="/css/kelsin.css">
   </head>
   <body>
-    <header>
-      <h1><a href="/">{{ site.name }}</a></h1>
-      <a class="extra" href="/">home</a>
+    <header data-stellar-background-ratio="0.25">
+      <h1 data-stellar-ratio="0.5">
+        <a href="/">{{ site.name }}</a>
+      </h1>
+      <h2 data-stellar-ratio="0.5">
+        <a href="/">{{ site.desc }}</a>
+      </h2>
+      <div class="social">
+        {% if site.social.facebook %}
+        <a href="{{site.data.social.facebook.url}}{{site.social.facebook}}" title="Facebook">{{site.data.social.facebook.glyph}}</a>
+        {% endif %}
+        {% if site.social.twitter %}
+        <a href="{{site.data.social.twitter.url}}{{site.social.twitter}}" title="Twitter">{{site.data.social.twitter.glyph}}</a>
+        {% endif %}
+        {% if site.social.github %}
+        <a href="{{site.data.social.github.url}}{{site.social.github}}" title="Github">{{site.data.social.github.glyph}}</a>
+        {% endif %}
+        {% if site.social.rdio %}
+        <a href="{{site.data.social.rdio.url}}{{site.social.rdio}}" title="Rdio">{{site.data.social.rdio.glyph}}</a>
+        {% endif %}
+        {% if site.social.lastfm %}
+        <a href="{{site.data.social.lastfm.url}}{{site.social.lastfm}}" title="Lastfm">{{site.data.social.lastfm.glyph}}</a>
+        {% endif %}
+        {% if site.social.linkedin %}
+        <a href="{{site.data.social.linkedin.url}}{{site.social.linkedin}}" title="LinkedIn">{{site.data.social.linkedin.glyph}}</a>
+        {% endif %}
+        {% if site.social.gplus %}
+        <a href="{{site.data.social.gplus.url}}{{site.social.gplus}}" title="Google+">{{site.data.social.gplus.glyph}}</a>
+        {% endif %}
+      </div>
     </header>
 
     {{ content }}
@@ -40,5 +63,7 @@
         </p>
       </div>
     </div>
+
+    <script src="/js/kelsin.js"></script>
   </body>
 </html>
