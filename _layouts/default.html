@@ -12,41 +12,53 @@
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="/css/kelsin.css">
+
+    <!-- Feeds -->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="RSS Feed">
+
+    <!-- Glyphs -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
   <body>
-    <header data-stellar-background-ratio="0.25">
-      <h1 data-stellar-ratio="0.5">
+    <header data-stellar-background-ratio="0.5">
+      <h1>
         <a href="/">{{ site.name }}</a>
       </h1>
-      <h2 data-stellar-ratio="0.5">
+      <h2>
         <a href="/">{{ site.desc }}</a>
       </h2>
+      <div class="bar"></div>
       <div class="social">
         {% if site.social.facebook %}
-        <a href="{{site.data.social.facebook.url}}{{site.social.facebook}}" title="Facebook">{{site.data.social.facebook.glyph}}</a>
+        <a href="{{site.data.social.facebook.url}}{{site.social.facebook}}" title="Facebook"><i class="fa fa-facebook fa-fw"></i></a><br/>
         {% endif %}
         {% if site.social.twitter %}
-        <a href="{{site.data.social.twitter.url}}{{site.social.twitter}}" title="Twitter">{{site.data.social.twitter.glyph}}</a>
+        <a href="{{site.data.social.twitter.url}}{{site.social.twitter}}" title="Twitter"><i class="fa fa-twitter fa-fw"></i></a><br/>
         {% endif %}
         {% if site.social.github %}
-        <a href="{{site.data.social.github.url}}{{site.social.github}}" title="Github">{{site.data.social.github.glyph}}</a>
+        <a href="{{site.data.social.github.url}}{{site.social.github}}" title="Github"><i class="fa fa-github fa-fw"></i></a><br/>
         {% endif %}
         {% if site.social.rdio %}
-        <a href="{{site.data.social.rdio.url}}{{site.social.rdio}}" title="Rdio">{{site.data.social.rdio.glyph}}</a>
+        <a href="{{site.data.social.rdio.url}}{{site.social.rdio}}" title="Rdio"><i class="fa fa-music fa-fw"></i></a><br/>
         {% endif %}
         {% if site.social.lastfm %}
-        <a href="{{site.data.social.lastfm.url}}{{site.social.lastfm}}" title="Lastfm">{{site.data.social.lastfm.glyph}}</a>
+        <a href="{{site.data.social.lastfm.url}}{{site.social.lastfm}}" title="Lastfm"><i class="fa fa-music fa-fw"></i></a><br/>
         {% endif %}
         {% if site.social.linkedin %}
-        <a href="{{site.data.social.linkedin.url}}{{site.social.linkedin}}" title="LinkedIn">{{site.data.social.linkedin.glyph}}</a>
+        <a href="{{site.data.social.linkedin.url}}{{site.social.linkedin}}" title="LinkedIn"><i class="fa fa-linkedin fa-fw"></i></a><br/>
         {% endif %}
         {% if site.social.gplus %}
-        <a href="{{site.data.social.gplus.url}}{{site.social.gplus}}" title="Google+">{{site.data.social.gplus.glyph}}</a>
+        <a href="{{site.data.social.gplus.url}}{{site.social.gplus}}" title="Google+"><i class="fa fa-google-plus fa-fw"></i></a><br/>
         {% endif %}
+        <a href="/rss.xml" title="{{ site.name }} RSS Feed"><i class="fa fa-rss fa-fw"></i></a>
       </div>
     </header>
+    <div class="gradient"></div>
 
-    {{ content }}
+    <div class="container" id="content">
+      {{ content }}
+    </div>
 
     <div class="footer">
       <div class="contact">

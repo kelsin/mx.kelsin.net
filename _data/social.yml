@@ -1,21 +1,14 @@
 github:
-  glyph: j
   url: https://github.com/
 facebook:
-  glyph: f
   url: https://facebook.com/
 twitter:
-  glyph: t
   url: https://twitter.com/
 rdio:
-  glyph: r
   url: https://rdio.com/people/
 linkedin:
-  glyph: i
   url: https://linkedin.com/in/
 gplus:
-  glyph: h
   url: https://plus.google.com/u/0/+
 lastfm:
-  glyph: l
   url: http://www.last.fm/user/

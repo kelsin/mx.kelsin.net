@@ -1,8 +1,6 @@
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
+/* Colors */
+@link: #3f0090;
+@grey: #aaa;
 
 /* Global Reset */
 * {
@@ -20,39 +18,71 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
+h1 { margin-bottom: 0.2em; }
+p { margin: 0 0 1.4em 0; }
 
-/* Glyph Fonts */
-@font-face {
-  font-family: Socialglyphs;
-  font-family: "Socialglyphs";
-  src: url(/fonts/socialglyphs-regular.svg#socialglyphs-regular) format("svg"),
-       url(/fonts/socialglyphs-regular.ttf) format("truetype"),
-       url(/fonts/socialglyphs-regular.woff) format("woff"),
-       url(/fonts/socialglyphs-regular.eot);
+@color: rgba(0,0,0,.08);
+@color2: rgba(0,0,0,.02);
+
+.gradient {
+  height: 20px;
+  position: relative;
+  width: 100%;
+  background: radial-gradient(ellipse farthest-side at top center, @color, transparent);
+
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    left: 0;
+    height: 3px;
+    background: linear-gradient(left, transparent, @color2, @color2, transparent);
+  }
 }
 
 /* Header */
 header {
   height: 400px;
-  background: url('/images/background.jpg') no-repeat top center fixed;
+  background: url('/images/background.jpg') no-repeat center top fixed;
   background-size: cover;
+  background-color: #000;
   text-align: center;
   overflow: hidden;
+  position: relative;
 
   h1 {
     font-family: "ff-ernestine-web-pro";
     font-size: 4em;
     text-shadow: 3px 3px 4px #000;
-    padding-top: 150px;
+    padding-top: 130px;
     margin-bottom: 20px;
+    transition: all 0.25s ease;
+
+    &:hover {
+      text-shadow: 4px 4px 4px #000;
+    }
   }
 
   h2 {
     font-family: "ff-ernestine-web-pro";
     font-size: 1.6em;
     text-shadow: 2px 2px 3px #000;
+    transition: all 0.25s ease;
+
+    &:hover {
+      text-shadow: 3px 3px 3px #000;
+    }
+  }
+
+  .bar {
+    height: 20px;
+    opacity: 0.25;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
 
   a {
@@ -61,36 +91,74 @@ header {
   }
 
   .social {
-    position: fixed;
+    position: absolute;
     top: 0;
-    right: 0;
-    margin-right: 10px;
-    font-family: Socialglyphs;
+    left: 0;
+    margin: 10px 0 0 5px;
     font-size: 32px;
-    line-height: 32px;
+    line-height: 48px;
     text-shadow: 0 0 6px #000;
-    opacity: 0.6;
+
+    a {
+      transition: all 0.25s ease;
+      opacity: 0.6;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
   }
 }
 
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
+@media (max-width: 799px) {
+  header {
+    background-size: 800px auto;
+  }
 }
 
-.posts li {
-  line-height: 1.75em;
+/* Main Content */
+#content {
+  padding: 50px 0;
 }
 
-.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* Post List */
+section.posts {
+  div.post {
+    margin-bottom: 1em;
+  }
+
+  h1 {
+    font-family: "ff-ernestine-web-pro";
+    font-size: 2em;
+    margin-bottom: -6px;
+    line-height: 1.2em;
+
+    a {
+      text-decoration: none;
+      color: #000;
+      transition: all 0.25s ease;
+
+      &:hover {
+        color: @link;
+      }
+    }
+  }
+
+  p {
+    line-height: 1.6em;
+    margin-bottom: 2em;
+
+    &.date {
+      font-size: 0.9em;
+      color: @grey;
+      margin-bottom: 0.2em;
+    }
+  }
 }
 
 /*****************************************************************************/

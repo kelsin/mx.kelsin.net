@@ -1,7 +1,11 @@
 name: M-x Kelsin
 desc: Hacking, Hacking, Hacking
+author:
+  name: Christopher Giroir
+  email: kelsin@valefor.com
 markdown: redcarpet
 pygments: true
+paginate: 5
 exclude:
   - .bowerrc
   - bower.json
