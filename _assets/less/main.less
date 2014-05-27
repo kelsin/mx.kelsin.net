@@ -1,6 +1,7 @@
 /* Colors */
 @link: #3f0090;
 @grey: #aaa;
+@body: #666;
 
 /* Global Reset */
 * {
@@ -12,7 +13,19 @@ html, body { height: 100%; }
 
 body {
   background-color: #fff;
+  color: @body;
   font: 16px Helvetica, Arial, sans-serif;
+
+  a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.25s ease;
+
+    &:hover {
+      color: @link;
+      text-decoration: underline;
+    }
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -90,6 +103,11 @@ header {
   a {
     color: #fff;
     text-decoration: none;
+
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+    }
   }
 
   .social {
@@ -142,7 +160,7 @@ section.posts {
 
     a {
       text-decoration: none;
-      color: #000;
+      color: #333;
       transition: all 0.25s ease;
 
       &:hover {
