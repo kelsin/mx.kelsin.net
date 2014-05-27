@@ -5,7 +5,7 @@ author:
   email: kelsin@valefor.com
 markdown: redcarpet
 pygments: true
-paginate: 5
+paginate: 10
 exclude:
   - .bowerrc
   - bower.json
