@@ -3,6 +3,11 @@ layout: default
 ---
 <div class="post">
   <h1>{{ page.title }}</h1>
-  <p class="date">{{ page.date | date_to_string }}</p>
+  <div class="meta">
+    <p class="date">{{ page.date | date_to_string }}</p>
+    <p class="comments"><i class="fa fa-comment fa-fw"></i>&nbsp;<a href="{{ page.url }}#disqus_thread"></a></p>
+  </div>
   {{ content }}
+  <div id="disqus_thread"></div>
 </div>
+<script src="//mxkelsin.disqus.com/embed.js" async="true"></script>

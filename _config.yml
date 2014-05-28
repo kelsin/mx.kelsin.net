@@ -1,28 +1,58 @@
+# Blog author setup
 name: M-x Kelsin
 desc: Hacking, Hacking, Hacking
 author:
   name: Christopher Giroir
   email: kelsin@valefor.com
-markdown: redcarpet
-pygments: true
+
+# Blog page setup
+permalink: /:year/:month/:day/:title/
 paginate: 10
+
+# Markdown settings
+markdown: redcarpet
+redcarpet:
+  extensions:
+    - no_intra_emphasis
+    - fenced_code_blocks
+    - autolink
+    - tables
+    - with_toc_data
+    - strikethrough
+    - smart
+
+# Syntax Highlighting
+pygments: true
+
+# Approved github jekyll plugins
 gems:
-  - jemoji
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jemoji
+
+# Github Page Defaults
+safe: true
+lsi: false
+
+# Ignore files meant for building
 exclude:
   - .bowerrc
-  - bower.json
   - .bundle
+  - .ruby-version
+  - bower.json
   - Gemfile
   - Gemfile.lock
-  - package.json
   - gulpfile.js
+  - node_modules
+  - package.json
+
+# Social links
 social:
   github: kelsin
   facebook: kelsin
   twitter: kelsin5
   rdio: kelsin
+  # spotify: kelsin
   # linkedin: kelsin
   # gplus: ChristopherGiroir
   # lastfm: Kelsin

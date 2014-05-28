@@ -1,7 +1,7 @@
 /* Colors */
-@link: #3f0090;
-@grey: #aaa;
-@body: #666;
+@link: #6c71c4;
+@grey: #93a1a1;
+@body: #586e75;
 
 /* Global Reset */
 * {
@@ -14,11 +14,12 @@ html, body { height: 100%; }
 body {
   background-color: #fff;
   color: @body;
-  font: 16px Helvetica, Arial, sans-serif;
+  font-family: "ff-meta-serif-web-pro", serif;
+  font-size: 16pt;
 
   a {
-    color: #333;
-    text-decoration: none;
+    color: @body;
+    text-decoration: underline;
     transition: color 0.25s ease;
 
     &:hover {
@@ -33,7 +34,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
 }
 
-h1 { margin-bottom: 0.2em; }
+h1 {
+  margin-bottom: 0.2em;
+  font-family: "ff-ernestine-web-pro";
+}
 p { margin: 0 0 1.4em 0; }
 
 @color: rgba(0,0,0,.08);
@@ -173,64 +177,12 @@ section.posts {
     line-height: 1.6em;
     margin-bottom: 2em;
 
-    &.date {
+    &.date, &.comments {
       font-size: 0.9em;
       color: @grey;
       margin-bottom: 0.2em;
     }
   }
-}
-
-/* standard */
-.post pre {
-  border: 1px solid #073642;
-  background-color: #002b36;
-  padding: .6em .6em;
-  overflow-x: auto;
-  max-height: 400px;
-  border-radius: 6px;
-  line-height: 1.5;
-}
-
-.post pre::-webkit-scrollbar {
-  height: 6px;
-  width: 6px;
-  background-color: #002b36;
-  border-radius: 0 0 3px 3px;
-}
-
-.post pre::-webkit-scrollbar-thumb {
-  background-color: #586e75;
-  border-radius: 3px;
-}
-
-.post pre::-webkit-scrollbar-corner {
-  display: none;
-}
-
-.post ul, .post ol {
-  margin-left: 1.35em;
-}
-
-.post code {
-  border: 1px solid #073642;
-  background-color: #002b36;
-  padding: 0 .2em;
-}
-
-.post pre code {
-  border: none;
-}
-
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #073642;
-  background-color: #002b36;
-  color: #839496;
-}
-
-.post pre.terminal code {
-  background-color: #002b36;
 }
 
 @import "markdown.less";
