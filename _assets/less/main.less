@@ -1,7 +1,41 @@
 /* Colors */
-@link: #6c71c4;
-@grey: #93a1a1;
-@body: #586e75;
+@base03:    #002b36;
+@base02:    #073642;
+@base01:    #586e75;
+@base00:    #657b83;
+@base0:     #839496;
+@base1:     #93a1a1;
+@base2:     #eee8d5;
+@base3:     #fdf6e3;
+@yellow:    #b58900;
+@orange:    #cb4b16;
+@red:       #dc322f;
+@magenta:   #d33682;
+@violet:    #6c71c4;
+@blue:      #268bd2;
+@cyan:      #2aa198;
+@green:     #859900;
+
+@link: @blue;
+@hover: @violet;
+@grey: @base1;
+@body: @base01;
+
+/* Mixins */
+.box() {
+  font-size: 12pt;
+  background: @base3;
+  color: @base00;
+  border-radius: 6px;
+  box-shadow: 3px 3px @base2;
+  margin: 1em 0 2em 0;
+  padding: 10px 10px 7px 10px;
+}
+
+.callout(@color) {
+  .box();
+  border-left: 10px solid @color;
+}
 
 /* Global Reset */
 * {
@@ -18,27 +52,35 @@ body {
   font-size: 16pt;
 
   a {
-    color: @body;
-    text-decoration: underline;
+    color: @link;
+    text-decoration: none;
     transition: color 0.25s ease;
 
     &:hover {
-      color: @link;
+      color: @hover;
       text-decoration: underline;
     }
   }
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: normal;
-  font-size: 100%;
+  font-weight: bold;
+  line-height: 1.2em;
 }
 
 h1 {
-  margin-bottom: 0.2em;
   font-family: "ff-ernestine-web-pro";
+  font-size: 2em;
+  margin-bottom: 0;
 }
-p { margin: 0 0 1.2em 0; }
+
+h2 { font-size: 1.8em; }
+h3 { font-size: 1.6em; }
+h4 { font-size: 1.4em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1em; }
+
+p { margin: 0 0 1em 0; }
 
 @color: rgba(0,0,0,.08);
 @color2: rgba(0,0,0,.02);
@@ -157,19 +199,9 @@ section.posts {
   }
 
   h1 {
-    font-family: "ff-ernestine-web-pro";
-    font-size: 2em;
     margin-bottom: -6px;
-    line-height: 1.2em;
-
-    a {
+    a:hover {
       text-decoration: none;
-      color: #333;
-      transition: color 0.25s ease;
-
-      &:hover {
-        color: @link;
-      }
     }
   }
 
@@ -185,5 +217,5 @@ section.posts {
   }
 }
 
-@import "markdown.less";
-@import "syntax.less";
+@import "post.less";
+@import "code.less";
