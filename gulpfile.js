@@ -21,7 +21,7 @@ gulp.task('bower', function() {
 
 gulp.task('js', function() {
   gulp.src(['_assets/js/vendor/*.js','_assets/js/*.js'])
-    .pipe(uglify())
+    .pipe(uglify().on('error', gutil.log))
     .pipe(concat('kelsin.js'))
     .pipe(gulp.dest('js'));
 });

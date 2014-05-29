@@ -69,7 +69,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-family: "ff-ernestine-web-pro";
   font-size: 2em;
   margin-bottom: 0;
 }
@@ -113,16 +112,31 @@ header {
   overflow: hidden;
   position: relative;
 
+  .shadow {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: .5;
+    display: none;
+  }
+
   h1 {
     font-family: "ff-ernestine-web-pro";
     font-size: 5em;
     text-shadow: 3px 3px 4px #000;
-    padding-top: 100px;
-    margin-bottom: 20px;
+    margin: 0 60px 20px 60px;
     transition: text-shadow 0.25s ease;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
 
     &:hover {
       text-shadow: 4px 4px 4px #000;
+    }
+
+    &.post {
+      font-size: 3em;
     }
   }
 
@@ -131,6 +145,9 @@ header {
     font-size: 1.6em;
     text-shadow: 2px 2px 3px #000;
     transition: text-shadow 0.25s ease;
+    position: absolute;
+    bottom: 120px;
+    width: 100%;
 
     &:hover {
       text-shadow: 3px 3px 3px #000;
@@ -192,6 +209,25 @@ header {
   margin: 0 auto;
 }
 
+/* Pagination Links */
+.pagination {
+  overflow: auto;
+
+  a {
+    &.next {
+      float: left;
+    }
+
+    &.previous {
+      float: right;
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
 /* Post List */
 section.posts {
   div.post {
@@ -199,7 +235,8 @@ section.posts {
   }
 
   h1 {
-    margin-bottom: -6px;
+    font-size: 1.6em;
+    /* margin-bottom: -6px; */
     a:hover {
       text-decoration: none;
     }
@@ -214,6 +251,56 @@ section.posts {
       color: @grey;
       margin-bottom: 0.2em;
     }
+  }
+
+  .post {
+    .meta {
+      overflow: auto;
+      position: relative;
+      border: none;
+      left: 0;
+      top: 0;
+      width: auto;
+
+      p {
+        float: left;
+        margin-right: 2em;
+      }
+    }
+  }
+}
+
+/* Tags */
+section.tags {
+  #tags {
+    font-size: 0.7em;
+    column-count: 3;
+    margin-top: 40px;
+    position: relative;
+
+    .tag {
+      break-inside:avoid;
+      margin-bottom: 2em;
+    }
+  }
+
+  #cloud {
+    text-align: justify;
+    position: relative;
+    line-height: 2em;
+
+    .small { font-size: 0.6em; }
+    .large { font-size: 1.4em; }
+    .huge  { font-size: 1.8em; }
+  }
+
+  .icon {
+    width: 100px;
+    text-align: right;
+    font-size: 2em;
+    position: absolute;
+    left: -120px;
+    top: 4px;
   }
 }
 

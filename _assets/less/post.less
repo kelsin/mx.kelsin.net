@@ -1,15 +1,26 @@
 .post {
+  position: relative;
+
   /* Post Meta Data *******************************************/
   .meta {
-    overflow: auto;
-    clear: left;
     font-size: 12pt;
+    position: absolute;
+    width: 120px;
+    left: -160px;
+    top: 0;
+    border-right: 1px solid @grey;
+    padding-right: 20px;
+    margin-right: 20px;
+    color: @grey;
 
     p {
-      color: @grey;
-      float: left;
-      margin-bottom: 0.2em;
-      margin-right: 1em;
+      text-align: right;
+      margin-bottom: 0.4em;
+    }
+
+    ul {
+      text-align: right;
+      list-style: none;
     }
 
     a {
@@ -67,10 +78,10 @@
     }
 
     ul, ol {
-      margin: 1em 0;
+      margin: 1em 3em;
       font-size: 12pt;
 
-      list-style-position: inside;
+      list-style-position: outside;
 
       ul, ol {
         margin: 0 0 0 1.35em;
@@ -87,7 +98,7 @@
 
     dl {
       overflow: auto;
-      margin-left: 1em 0 1em 1.35em;
+      margin-left: 1em 3em;
       font-size: 12pt;
 
       dt {
@@ -109,7 +120,7 @@
 
     /* Tables */
     table {
-      margin: 1em 0;
+      margin: 1em 3em;
       border-collapse: separate;
       border-spacing: 0 0;
       font-size: 12pt;
@@ -132,5 +143,17 @@
         border: none;
       }
     }
+  }
+}
+
+/* Drop caps only on post page */
+#content > .post .body {
+  p:first-child:first-letter {
+    float: left;
+    color: @magenta;
+    font-size: 3.4em;
+    line-height: 0.9em;
+    padding-right: 4px;
+    margin-bottom: -10px;
   }
 }

@@ -9,8 +9,13 @@ title: M-x Kelsin
     <div class="meta">
       <p class="date"><i class="fa fa-calendar fa-fw"></i>&nbsp;{{ post.date | date_to_string }}</p>
       <p class="comments"><i class="fa fa-comment fa-fw"></i>&nbsp;<a href="{{ post.url }}#disqus_thread">0 Comments</a></p>
+      {% if post.tags.size > 0 %}
+      <p class="tags"><i class="fa fa-tags fa-fw"></i>&nbsp;{% for tag in post.tags %}<a href="/tags/#tag-{{ tag | downcase | replace: ' ', '_' }}">{{ tag | downcase }}</a>{% unless forloop.last %},&nbsp;{% endunless %}{% endfor %}</p>
+      {% endif %}
     </div>
-    {{ post.excerpt }}
+    <div class="body">
+      {{ post.excerpt }}
+    </div>
   </div>
   {% endfor %}
 </section>
@@ -18,9 +23,9 @@ title: M-x Kelsin
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Older</a>
+  <a href="{{ paginator.next_page_path }}" class="next"><i class="fa fa-arrow-left fa-fw"></i>&nbsp;Older</a>
   {% endif %}
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Newer</a>
+  <a href="{{ paginator.previous_page_path }}" class="previous">Newer&nbsp;<i class="fa fa-arrow-right fa-fw"></i></a>
   {% endif %}
 </div>
