@@ -6,7 +6,7 @@ $(function() {
 
   $(window).scroll(function() {
     if($(window).scrollTop() >= 400) {
-      $('#content').css({'margin-top': '90px'});
+      $('#content').css({'margin-top': $('nav').outerHeight() + 'px'});
       $('nav').css({position: 'fixed'});
     } else {
       $('#content').css({'margin-top': '0'});
