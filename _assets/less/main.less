@@ -111,6 +111,16 @@ p { margin: 0 0 1em 0; }
   }
 }
 
+header, footer {
+  .shadow {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: .6;
+  }
+}
+
 /* Header */
 header {
   height: 400px;
@@ -121,15 +131,6 @@ header {
   overflow: hidden;
   position: relative;
   color: #fff;
-
-  .shadow {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: #000;
-    opacity: .5;
-    display: none;
-  }
 
   h1 {
     font-family: "ff-ernestine-web-pro";
@@ -229,54 +230,37 @@ nav {
   }
 
   a {
-    &.red {
-      color: @red;
-      &:hover {
-        color: @orange;
-      }
-    }
-    &.orange {
-      color: @orange;
-      &:hover {
-        color: @yellow;
-      }
-    }
-    &.yellow {
-      color: @yellow;
-      &:hover {
-        color: @green;
-      }
-    }
-    &.green {
-      color: @green;
-      &:hover {
-        color: @cyan;
-      }
-    }
-    &.cyan {
-      color: @cyan;
-      &:hover {
-        color: @blue;
-      }
-    }
-    &.blue {
-      color: @blue;
-      &:hover {
-        color: @violet;
-      }
-    }
-    &.violet {
-      color: @violet;
-      &:hover {
-        color: @magenta;
-      }
-    }
-    &.magenta {
-      color: @magenta;
-      &:hover {
-        color: @red;
-      }
-    }
+    &.red { color: @red; &:hover { color: #000; } }
+    &.orange { color: @orange; &:hover { color: #000; } }
+    &.yellow { color: @yellow; &:hover { color: #000; } }
+    &.green { color: @green; &:hover { color: #000; } }
+    &.cyan { color: @cyan; &:hover { color: #000; } }
+    &.blue { color: @blue; &:hover { color: #000; } }
+    &.violet { color: @violet; &:hover { color: #000; } }
+    &.magenta { color: @magenta; &:hover { color: #000; } }
+  }
+}
+
+footer nav {
+  background: transparent;
+  top: 20px;
+  position: relative;
+
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+
+  hr { display: none; }
+
+  a {
+    &.red { color: #fff; &:hover { color: @red; } }
+    &.orange { color: #fff; &:hover { color: @orange; } }
+    &.yellow { color: #fff; &:hover { color: @yellow; } }
+    &.green { color: #fff; &:hover { color: @green; } }
+    &.cyan { color: #fff; &:hover { color: @cyan; } }
+    &.blue { color: #fff; &:hover { color: @blue; } }
+    &.violet { color: #fff; &:hover { color: @violet; } }
+    &.magenta { color: #fff; &:hover { color: @magenta; } }
   }
 }
 

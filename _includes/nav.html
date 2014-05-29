@@ -1,0 +1,15 @@
+<nav>
+  <a href="/" title="Home" class="{% cycle group: 'magenta', 'red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'violet' %}"><i class="fa fa-home fa-fw"></i></a>&nbsp;
+  <a href="/tags/" title="Tags" class="{% cycle group: 'magenta', 'red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'violet' %}"><i class="fa fa-tags fa-fw"></i></a>&nbsp;
+  <a href="/about/" title="About" class="{% cycle group: 'magenta', 'red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'violet' %}"><i class="fa fa-user fa-fw"></i></a>&nbsp;
+  {% for social in site.social %}
+  {% assign slug = social[0] %}
+  {% assign user = social[1] %}
+  {% assign name = site.data.social[slug].name %}
+  {% assign icon = site.data.social[slug].icon %}
+  {% assign url = site.data.social[slug].url %}
+  <a href="{{url | replace: '%u', user}}" title="{{name}}" class="{% cycle group: 'magenta', 'red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'violet' %}"><i class="fa fa-{{icon}} fa-fw"></i></a>&nbsp;
+  {% endfor %}
+  <a href="/rss.xml" title="{{ site.name }} RSS Feed" class="{% cycle group: 'magenta', 'red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'violet' %}"><i class="fa fa-rss fa-fw"></i></a>
+  <hr>
+</nav>

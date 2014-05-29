@@ -25,7 +25,6 @@
   </head>
   <body class="nojs">
     <header data-stellar-background-ratio="0.5">
-      <div class="shadow"></div>
       <h1{% if page.id %} class="post"{% endif %}>{% if page.id %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</h1>
       {% unless page.id %}
       <h2>{% if page.title %}{{ page.title }}{% else %}{{ site.desc }}{% endif %}</h2>
@@ -33,28 +32,18 @@
       <div class="bar"></div>
     </header>
 
-    <nav>
-      <a href="/" title="Home" class="{% cycle 'red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'violet', 'magenta' %}"><i class="fa fa-home fa-fw"></i></a>&nbsp;
-      <a href="/tags/" title="Tags" class="{% cycle 'red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'violet', 'magenta' %}"><i class="fa fa-tags fa-fw"></i></a>&nbsp;
-      <a href="/about/" title="About" class="{% cycle 'red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'violet', 'magenta' %}"><i class="fa fa-user fa-fw"></i></a>&nbsp;
-      {% for social in site.social %}
-      {% assign slug = social[0] %}
-      {% assign user = social[1] %}
-      {% assign name = site.data.social[slug].name %}
-      {% assign icon = site.data.social[slug].icon %}
-      {% assign url = site.data.social[slug].url %}
-      <a href="{{url | replace: '%u', user}}" title="{{name}}" class="{% cycle 'red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'violet', 'magenta' %}"><i class="fa fa-{{icon}} fa-fw"></i></a>&nbsp;
-      {% endfor %}
-      <a href="/rss.xml" title="{{ site.name }} RSS Feed" class="{% cycle 'red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'violet', 'magenta' %}"><i class="fa fa-rss fa-fw"></i></a>
-      <hr>
-    </nav>
+    {% assign group = 'header' %}
+    {% include nav.html %}
 
     <div class="container" id="content">
       {{ content }}
     </div>
 
     <footer data-stellar-background-ratio="0.5">
+      <div class="shadow"></div>
       <div class="bar"></div>
+      {% assign group = 'footer' %}
+      {% include nav.html %}
     </footer>
 
     <script src="/js/kelsin.js"></script>
