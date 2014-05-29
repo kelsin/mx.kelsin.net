@@ -6,7 +6,6 @@ title: "M-x Kelsin: Tags"
   {% capture tagString %}{% for tag in site.tags %}{{ tag[0] }}{% unless forloop.last %}|{% endunless %}{% endfor %}{% endcapture %}
   {% assign tags = tagString | split: '|' | sort: 'downcase' %}
   <div id="cloud">
-    <div class="icon"><i class="fa fa-cloud fa-fw"></i></div>
     {% for tag in tags %}
     {% assign number = site.tags[tag].size %}
     {% assign slug = tag | downcase | replace: ' ', '_' %}
@@ -16,7 +15,6 @@ title: "M-x Kelsin: Tags"
     {% endfor %}
   </div>
   <div id="tags">
-    <div class="icon"><i class="fa fa-list fa-fw"></i></div>
     {% for tag in tags %}
     {% assign slug = tag | downcase | replace: ' ', '_' %}
     <div id="tag-{{ slug }}" class="tag">
