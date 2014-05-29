@@ -339,13 +339,36 @@ section.posts {
 section.tags {
   #tags {
     font-size: 0.7em;
-    column-count: 3;
     margin-top: 40px;
     position: relative;
 
     .tag {
       break-inside:avoid;
       margin-bottom: 2em;
+      float: left;
+      width: 33%;
+
+      ul {
+        list-style: none;
+        margin-right: 20px;
+      }
+
+      &:nth-child(3n+1) {
+        width: 240px;
+        clear: left;
+      }
+
+      &:nth-child(3n+2) {
+        width: 240px;
+      }
+
+      &:nth-child(3n+0) {
+        width: 220px;
+
+        ul {
+          margin-right: 0;
+        }
+      }
     }
   }
 
