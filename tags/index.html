@@ -17,7 +17,8 @@ title: "M-x Kelsin: Tags"
   <div id="tags">
     {% for tag in tags %}
     {% assign slug = tag | downcase | replace: ' ', '_' %}
-    <div id="tag-{{ slug }}" class="tag">
+    <div class="tag">
+      <a class="anchor" id="tag-{{ slug }}"></a>
       <h2>{{ tag | downcase }}</h2>
       <ul>
         {% for post in site.tags[tag] %}
