@@ -7,7 +7,7 @@ author:
 
 # Blog page setup
 permalink: /:year/:month/:day/:title/
-paginate: 10
+paginate: 5
 
 # Markdown settings
 markdown: redcarpet
