@@ -30,10 +30,6 @@ gems:
   - jekyll-redirect-from
   - jemoji
 
-# Github Page Defaults
-safe: true
-lsi: false
-
 # Ignore files meant for building
 exclude:
   - .bowerrc

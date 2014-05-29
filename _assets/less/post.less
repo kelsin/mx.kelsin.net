@@ -27,10 +27,17 @@
     h1 { font-family: "ff-meta-serif-web-pro", serif;
          font-size: 1.6em;}
     h2 { font-size: 1.4em; }
-    h3 { font-size: 1.3em; }
-    h4 { font-size: 1.2em; }
-    h5 { font-size: 1.1em; }
-    h6 { font-size: 1em; }
+    h3 { font-size: 1.2em; }
+    h4 { font-size: 1.1em; }
+    h5 { font-size: 1em; }
+    h6 { font-size: 1em; font-weight: normal; }
+
+    p {
+      img.emoji {
+        position: relative;
+        top: -3px;
+      }
+    }
 
     hr {
       margin: 1em 0;
@@ -46,7 +53,7 @@
       quotes: "\201C""\201D""\2018""\2019";
 
       &:before {
-        color: #93a1a1;
+        color: @base1;
         content: '“';
         font-size: 4em;
         line-height: 0.1em;
@@ -60,11 +67,16 @@
     }
 
     ul, ol {
+      margin: 1em 0;
+      font-size: 12pt;
+
       list-style-position: inside;
-      margin-left: 1.35em;
+
+      ul, ol {
+        margin: 0 0 0 1.35em;
+      }
     }
 
-    &>ul, &>ol { .callout(@violet); }
     ul { list-style-type: disc; }
     ol { list-style-type: decimal; }
     ol ol { list-style-type: lower-alpha; }
@@ -75,7 +87,8 @@
 
     dl {
       overflow: auto;
-      margin-left: 1.35em;
+      margin-left: 1em 0 1em 1.35em;
+      font-size: 12pt;
 
       dt {
         clear: left;
@@ -87,23 +100,19 @@
       }
 
       dd {
-        border-left: 1px solid #93a1a1;
+        border-left: 1px solid @base1;
         padding: 4px 4px 4px 8px;
         float: left;
         max-width: 567px;
       }
     }
 
-    &>dl {
-      .callout(@red);
-    }
-
     /* Tables */
     table {
-      .callout(@magenta);
-      width: 100%;
+      margin: 1em 0;
       border-collapse: separate;
       border-spacing: 0 0;
+      font-size: 12pt;
 
       td, th {
         text-align: left;
@@ -111,12 +120,12 @@
       }
 
       th {
-        border-bottom: 2px solid #93a1a1;
+        border-bottom: 2px solid @base1;
         font-weight: bold;
       }
 
       td {
-        border-bottom: 1px solid #93a1a1;
+        border-bottom: 1px solid @base1;
       }
 
       tbody tr:last-child td {

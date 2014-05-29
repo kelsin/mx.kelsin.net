@@ -20,22 +20,26 @@
       border: 1px solid @base2;
       overflow: auto;
       max-height: 400px;
-    }
 
-    pre::-webkit-scrollbar {
-      height: 6px;
-      width: 6px;
-      background-color: @base3;
-      border-radius: 0 0 3px 3px;
-    }
+      code {
+        font-family: Monaco, Consolas, Menlo, monospace;
+      }
 
-    pre::-webkit-scrollbar-thumb {
-      background-color: @base1;
-      border-radius: 3px;
-    }
+      &::-webkit-scrollbar {
+        height: 6px;
+        width: 6px;
+        background-color: @base3;
+        border-radius: 0 0 3px 3px;
+      }
 
-    pre::-webkit-scrollbar-corner {
-      display: none;
+      &::-webkit-scrollbar-thumb {
+        background-color: @base1;
+        border-radius: 3px;
+      }
+
+      &::-webkit-scrollbar-corner {
+        display: none;
+      }
     }
 
     .highlight {

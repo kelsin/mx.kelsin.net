@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+var gutil = require('gulp-util');
 var bower = require('gulp-bower');
 var changed = require('gulp-changed');
 var uglify = require('gulp-uglify');
@@ -27,7 +28,7 @@ gulp.task('js', function() {
 
 gulp.task('less', function() {
   gulp.src('_assets/less/main.less')
-    .pipe(less())
+    .pipe(less().on('error', gutil.log))
     .pipe(prefix("last 1 version", "> 1%", "ie 8", "ie 7", { cascade: true }))
     .pipe(minify())
     .pipe(concat('kelsin.css'))
