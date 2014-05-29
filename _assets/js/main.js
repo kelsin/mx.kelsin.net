@@ -16,4 +16,10 @@ $(function() {
       $('nav').css({position: 'relative'});
     }
   });
+
+  $('#tags').masonry({
+    columnWidth: 220,
+    gutter: 20,
+    itemSelector: '.tag'
+  });
 });

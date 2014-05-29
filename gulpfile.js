@@ -17,6 +17,9 @@ gulp.task('bower', function() {
   gulp.src('_vendor/jquery.stellar/jquery.stellar.js')
     .pipe(rename('02-jquery.stellar.js'))
     .pipe(gulp.dest('_assets/js/vendor'));
+  gulp.src('_vendor/masonry/dist/masonry.pkgd.js')
+    .pipe(rename('03-masonry.js'))
+    .pipe(gulp.dest('_assets/js/vendor'));
 });
 
 gulp.task('js', function() {
