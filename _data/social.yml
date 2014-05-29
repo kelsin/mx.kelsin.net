@@ -1,32 +1,36 @@
 github:
   name: Github
   icon: github
-  url: https://github.com/
+  url: https://github.com/%u
 facebook:
   name: Facebook
   icon: facebook
-  url: https://facebook.com/
+  url: https://facebook.com/%u
 twitter:
   name: Twitter
   icon: twitter
-  url: https://twitter.com/
-rdio:
-  name: Rdio
-  icon: music
-  url: https://rdio.com/people/
+  url: https://twitter.com/%u
 linkedin:
   name: LinkedIn
   icon: linkedin
-  url: https://linkedin.com/in/
+  url: https://linkedin.com/in/%u
 gplus:
   name: Google+
   icon: gplus
-  url: https://plus.google.com/u/0/+
+  url: https://plus.google.com/u/0/+%u
+rdio:
+  name: Rdio
+  icon: headphones
+  url: https://rdio.com/people/%u
 lastfm:
   name: Last.fm
-  icon: music
-  url: http://www.last.fm/user/
+  icon: headphones
+  url: http://www.last.fm/user/%u
 spotify:
   name: Spotify
+  icon: headphones
+  url: https://open.spotify.com/user/%u
+bandcamp:
+  name: Bandcamp
   icon: music
-  url: https://open.spotify.com/user/
+  url: http://%u.bandcamp.com/

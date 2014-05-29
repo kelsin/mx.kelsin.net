@@ -43,7 +43,7 @@
       {% assign name = site.data.social[slug].name %}
       {% assign icon = site.data.social[slug].icon %}
       {% assign url = site.data.social[slug].url %}
-      <a href="{{url}}{{user}}" title="{{name}}" class="{% cycle 'red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'violet', 'magenta' %}"><i class="fa fa-{{icon}} fa-fw"></i></a>&nbsp;
+      <a href="{{url | replace: '%u', user}}" title="{{name}}" class="{% cycle 'red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'violet', 'magenta' %}"><i class="fa fa-{{icon}} fa-fw"></i></a>&nbsp;
       {% endfor %}
       <a href="/rss.xml" title="{{ site.name }} RSS Feed" class="{% cycle 'red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'violet', 'magenta' %}"><i class="fa fa-rss fa-fw"></i></a>
     </nav>
