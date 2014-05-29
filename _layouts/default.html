@@ -28,7 +28,7 @@
       <div class="shadow"></div>
       <h1{% if page.id %} class="post"{% endif %}>{% if page.id %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</h1>
       {% unless page.id %}
-      <h2>{{ site.desc }}</h2>
+      <h2>{% if page.title %}{{ page.title }}{% else %}{{ site.desc }}{% endif %}</h2>
       {% endunless %}
       <div class="bar"></div>
     </header>
