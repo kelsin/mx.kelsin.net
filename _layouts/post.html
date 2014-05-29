@@ -8,8 +8,9 @@ layout: default
     {% if page.tags.size > 0 %}
     <ul class="tags">
       <li><i class="fa fa-tags fa-fw"></i></li>
-      {% for tag in page.tags %}
-      <li><a href="/tags/#tag-{{ tag | downcase }}">{{ tag | downcase }}</a></li>
+      {% assign tags = page.tags | sort: 'downcase' %}
+      {% for tag in tags %}
+      <li><a href="/tags/#tag-{{ tag | downcase | replace: ' ', '_' }}">{{ tag | downcase }}</a></li>
       {% endfor %}
     </ul>
     {% endif %}

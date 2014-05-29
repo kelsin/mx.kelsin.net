@@ -2,8 +2,8 @@
 layout: post
 title: Tiny bits that I took away from Mongo Boston
 tags:
-- boston
 - mongo
+- boston
 - web applications
 category: programming
 ---

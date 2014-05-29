@@ -79,6 +79,14 @@ h4 { font-size: 1.4em; }
 h5 { font-size: 1.2em; }
 h6 { font-size: 1em; }
 
+hr {
+  margin: 1em 0;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
 p { margin: 0 0 1em 0; }
 
 @color: rgba(0,0,0,.08);
@@ -180,7 +188,7 @@ header {
     left: 0;
     margin: 10px 0 0 5px;
     font-size: 32px;
-    line-height: 48px;
+    line-height: 45px;
     text-shadow: 0 0 6px #000;
 
     a {
@@ -206,7 +214,7 @@ header {
 }
 
 .container {
-  width: 800px;
+  width: 600px;
   margin: 0 auto;
 }
 
@@ -227,6 +235,11 @@ header {
       text-decoration: none;
     }
   }
+}
+
+/* Bio */
+section {
+  position: relative;
 }
 
 /* Post List */
@@ -287,22 +300,26 @@ section.tags {
 
   #cloud {
     text-align: justify;
-    position: relative;
     line-height: 2em;
 
     .small { font-size: 0.6em; }
     .large { font-size: 1.4em; }
     .huge  { font-size: 1.8em; }
-  }
 
-  .icon {
-    width: 100px;
-    text-align: right;
-    font-size: 2em;
-    position: absolute;
-    left: -120px;
-    top: 4px;
+    .icon {
+      top: 4px;
+    }
   }
+}
+
+.icon {
+  width: 100px;
+  text-align: right;
+  font-size: 2em;
+  position: absolute;
+  left: -120px;
+  line-height: 1;
+  vertical-align: top;
 }
 
 @import "post.less";
