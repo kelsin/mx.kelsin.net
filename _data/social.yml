@@ -1,16 +1,32 @@
 github:
+  name: Github
+  icon: github
   url: https://github.com/
 facebook:
+  name: Facebook
+  icon: facebook
   url: https://facebook.com/
 twitter:
+  name: Twitter
+  icon: twitter
   url: https://twitter.com/
 rdio:
+  name: Rdio
+  icon: music
   url: https://rdio.com/people/
 linkedin:
+  name: LinkedIn
+  icon: linkedin
   url: https://linkedin.com/in/
 gplus:
+  name: Google+
+  icon: gplus
   url: https://plus.google.com/u/0/+
 lastfm:
+  name: Last.fm
+  icon: music
   url: http://www.last.fm/user/
 spotify:
+  name: Spotify
+  icon: music
   url: https://open.spotify.com/user/
