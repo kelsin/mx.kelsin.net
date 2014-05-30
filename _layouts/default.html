@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     {% if page.desc %}<meta content="{{ page.desc }}" property="description">{% else %}<meta content="{{ site.desc }}" property="description">{% endif %}
 
     <meta content="{{ site.name }}" property="og:site_name">
@@ -16,7 +15,7 @@
     {% if page.tags %}{% for tag in page.tags %}<meta content="{{ tag }}" property="article:tag">
     {% endfor %}{% endif %}
 
-    <title>{{ page.title }}</title>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
     <meta name="viewport" content="initial-scale=1">
 
     <!-- TypeKit -->
@@ -60,7 +59,7 @@
     </footer>
 
     <script src="/js/kelsin.js"></script>
-    <script src="//mxkelsin.disqus.com/count.js" async="true"></script>
+    <script src="//mxkelsin.disqus.com/count.js"></script>
     <script>
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', '{{ site.analytics.google }}']);
