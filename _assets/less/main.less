@@ -351,29 +351,21 @@ section.tags {
       break-inside:avoid;
       margin-bottom: 2em;
       float: left;
-      width: 33%;
+      width: 220px;
 
       ul {
         list-style: none;
-        margin-right: 20px;
+        padding: 5px;
       }
 
-      &:nth-child(3n+1) {
-        width: 240px;
-        clear: left;
-      }
-
-      &:nth-child(3n+2) {
-        width: 240px;
-      }
-
-      &:nth-child(3n+0) {
-        width: 220px;
-
-        ul {
-          margin-right: 0;
-        }
-      }
+      &.magenta ul { background-color: fade(@magenta, 10); }
+      &.red ul { background-color: fade(@red, 10); }
+      &.orange ul { background-color: fade(@orange, 10); }
+      &.yellow ul { background-color: fade(@yellow, 10); }
+      &.green ul { background-color: fade(@green, 10); }
+      &.cyan ul { background-color: fade(@cyan, 10); }
+      &.blue ul { background-color: fade(@blue, 10); }
+      &.violet ul { background-color: fade(@violet, 10); }
     }
   }
 
