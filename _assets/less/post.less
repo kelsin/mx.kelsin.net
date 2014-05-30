@@ -5,8 +5,8 @@
   .meta {
     font-size: 12pt;
     position: absolute;
-    width: 120px;
-    left: -160px;
+    width: 160px;
+    left: -200px;
     top: 0;
     border-right: 1px solid @grey;
     padding-right: 20px;
@@ -21,6 +21,10 @@
     ul {
       text-align: right;
       list-style: none;
+
+      li {
+        margin-bottom: 0.4em;
+      }
     }
 
     a {
@@ -28,6 +32,35 @@
 
       &:hover {
         color: @hover;
+      }
+    }
+
+    .share {
+      a {
+        display: inline-block;
+        height: 24px;
+        width: 24px;
+        border-radius: 3px;
+
+        &.facebook {
+          background-color: #3B5998;
+          background-image: url('/images/facebook.png');
+        }
+
+        &.gplus {
+          background-color: #DD4B39;
+          background-image: url('/images/gplus.png');
+        }
+
+        &.reddit {
+          background-color: #FF4500;
+          background-image: url('/images/reddit.png');
+        }
+
+        &.twitter {
+          background-color: #00ACED;
+          background-image: url('/images/twitter.png');
+        }
       }
     }
   }

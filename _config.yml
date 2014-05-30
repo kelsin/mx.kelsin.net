@@ -8,7 +8,7 @@ author:
 # Blog page setup
 permalink: /:year/:month/:day/:title/
 baseurl: /
-url: http://mx.kelsin.net/
+url: http://mx.kelsin.net
 paginate: 5
 encoding: UTF-8
 
@@ -50,7 +50,7 @@ analytics:
   google: UA-24773156-4
 
 sharing:
-  facebook: 250011375190248
+  twitter: kelsin5
 
 # Social links
 social:

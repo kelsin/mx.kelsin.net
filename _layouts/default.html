@@ -3,6 +3,19 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    {% if page.desc %}<meta content="{{ page.desc }}" property="description">{% else %}<meta content="{{ site.desc }}" property="description">{% endif %}
+
+    <meta content="{{ site.name }}" property="og:site_name">
+    {% if page.title %}<meta content="{{ page.title }}" property="og:title">{% else %}<meta content="{{ site.name }}" property="og:title">{% endif %}
+    {% if page.title %}<meta content="article" property="og:type">{% else %}<meta content="website" property="og:type">{% endif %}
+    {% if page.desc %}<meta content="{{ page.desc }}" property="og:description">{% else %}<meta content="{{ site.desc }}" property="og:description">{% endif %}
+    {% if page.url %}<meta content="{{ site.url }}{{ page.url }}" property="og:url">{% endif %}
+    {% if page.date %}<meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">{% endif %}
+    <meta content="{{ site.url }}/about/" property="article:author">
+    {% if page.image %}<meta content="{{ page.image }}" property="og:image">{% else %}<meta content="{{ site.url }}/images/background.jpg" property="og:image">{% endif %}
+    {% if page.tags %}{% for tag in page.tags %}<meta content="{{ tag }}" property="article:tag">
+    {% endfor %}{% endif %}
+
     <title>{{ page.title }}</title>
     <meta name="viewport" content="initial-scale=1">
 
