@@ -45,6 +45,10 @@ exclude:
   - node_modules
   - package.json
 
+# Analytics
+analytics:
+  google: UA-24773156-4
+
 # Social links
 social:
   github: kelsin
