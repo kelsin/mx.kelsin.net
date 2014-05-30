@@ -22,4 +22,14 @@ $(function() {
     gutter: 20,
     itemSelector: '.tag'
   });
+
+  $('p:has(a img)').masonry({
+    columnWidth: 160,
+    gutter: 20,
+    itemSelector: 'img'
+  });
+
+  $('p:has(a img)').each(function(index, elements) {
+    $(elements).find('a').colorbox({ rel: 'gallery-' + index });
+  });
 });

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Test Blog Post 1
+title: Test Blog Post
 category: programming
 tags:
   - programming
@@ -113,4 +113,12 @@ Content Cell  | Content Cell
   <dd>Is something people use sometimes.</dd>
 </dl>
 
-![images](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+[![Screenshot](http://kelsin.smugmug.com/Computers/Screenshots/i-s34btgV/0/Th/3302048185_f24210531b-Th.jpg)](http://kelsin.smugmug.com/Computers/Screenshots/i-s34btgV/0/L/3302048185_f24210531b-L.jpg)
+[![Screenshot](http://kelsin.smugmug.com/Computers/Screenshots/i-MQNw7HV/0/Th/3302048187_3dd038da05-Th.jpg)](http://kelsin.smugmug.com/Computers/Screenshots/i-MQNw7HV/0/L/3302048187_3dd038da05-L.jpg)
+[![Screenshot](http://kelsin.smugmug.com/Computers/Screenshots/i-MQNw7HV/0/Th/3302048187_3dd038da05-Th.jpg)](http://kelsin.smugmug.com/Computers/Screenshots/i-MQNw7HV/0/L/3302048187_3dd038da05-L.jpg)
+[![Screenshot](http://kelsin.smugmug.com/Computers/Screenshots/i-MQNw7HV/0/Th/3302048187_3dd038da05-Th.jpg)](http://kelsin.smugmug.com/Computers/Screenshots/i-MQNw7HV/0/L/3302048187_3dd038da05-L.jpg)
+
+[![Screenshot](http://kelsin.smugmug.com/Computers/Screenshots/i-MQNw7HV/0/Th/3302048187_3dd038da05-Th.jpg)](http://kelsin.smugmug.com/Computers/Screenshots/i-MQNw7HV/0/L/3302048187_3dd038da05-L.jpg)
+[![Screenshot](http://kelsin.smugmug.com/Computers/Screenshots/i-MQNw7HV/0/Th/3302048187_3dd038da05-Th.jpg)](http://kelsin.smugmug.com/Computers/Screenshots/i-MQNw7HV/0/L/3302048187_3dd038da05-L.jpg)
+[![Screenshot](http://kelsin.smugmug.com/Computers/Screenshots/i-MQNw7HV/0/Th/3302048187_3dd038da05-Th.jpg)](http://kelsin.smugmug.com/Computers/Screenshots/i-MQNw7HV/0/L/3302048187_3dd038da05-L.jpg)
+[![Screenshot](http://kelsin.smugmug.com/Computers/Screenshots/i-MQNw7HV/0/Th/3302048187_3dd038da05-Th.jpg)](http://kelsin.smugmug.com/Computers/Screenshots/i-MQNw7HV/0/L/3302048187_3dd038da05-L.jpg)

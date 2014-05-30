@@ -49,6 +49,22 @@
     h6 { font-size: 1em; font-weight: normal; }
 
     p {
+      overflow: auto;
+
+      a {
+        img {
+          border: 1px solid @base1;
+          padding: 4px;
+          box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+          float: left;
+          border-radius: 3px;
+        }
+
+        &:nth-child(4n+0) img {
+          margin-right: 0;
+        }
+      }
+
       img.emoji {
         position: relative;
         top: -3px;
@@ -103,7 +119,7 @@
 
     dl {
       overflow: auto;
-      margin-left: 1em 3em;
+      margin: 1em 0;
       font-size: 12pt;
 
       dt {
@@ -119,7 +135,7 @@
         border-left: 1px solid @base1;
         padding: 4px 4px 4px 8px;
         float: left;
-        max-width: 567px;
+        max-width: 467px;
       }
     }
 
