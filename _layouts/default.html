@@ -24,6 +24,14 @@
     <script>var disqus_shortname = 'mxkelsin';</script>
   </head>
   <body class="nojs">
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId={{ site.sharing.facebook }}&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <header data-stellar-background-ratio="0.5">
       <h1{% if page.id %} class="post"{% endif %}>{% if page.id %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</h1>
       {% unless page.id %}
