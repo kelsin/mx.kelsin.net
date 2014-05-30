@@ -5,13 +5,6 @@ layout: default
   <div class="meta">
     <p class="date"><i class="fa fa-calendar fa-fw"></i>&nbsp;{{ page.date | date_to_string }}</p>
     <p class="comments"><i class="fa fa-comment fa-fw"></i>&nbsp;<a href="{{ page.url }}#disqus_thread">0 Comments</a></p>
-    <div class="addthis_toolbox addthis_default_style ">
-      <a class="addthis_button_preferred_1"></a>
-      <a class="addthis_button_preferred_2"></a>
-      <a class="addthis_button_preferred_3"></a>
-      <a class="addthis_button_preferred_4"></a>
-      <a class="addthis_button_compact"></a>
-    </div>
     {% if page.tags.size > 0 %}
     <ul class="tags">
       <li><i class="fa fa-tags fa-fw"></i></li>
