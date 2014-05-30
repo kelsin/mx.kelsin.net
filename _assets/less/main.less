@@ -362,15 +362,22 @@ section.tags {
         border-radius: 3px;
 
         li {
-          margin-bottom: 0.5em;
+          padding: 5px;
+          border-bottom: 1px solid #ececec;
 
           a {
             color: @body;
           }
         }
 
+        li:first-child {
+          padding-top: 0;
+        }
+
         li:last-child {
           margin-bottom: 0;
+          border-bottom: none;
+          padding-bottom: 0;
         }
       }
     }
