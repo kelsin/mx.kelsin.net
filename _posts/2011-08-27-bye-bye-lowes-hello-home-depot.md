@@ -2,7 +2,6 @@
 layout: post
 title: Bye bye Lowes, Hello Home Depot!
 tags: []
-category: life
 ---
 
 So today in preperation for the hurricane I wanted to buy a new flashlight. When

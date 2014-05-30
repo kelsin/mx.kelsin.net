@@ -6,7 +6,6 @@ tags:
 - cancan
 - engines
 - rails
-category: programming
 ---
 
 My current project involved an auth gem (internal) that provides user management

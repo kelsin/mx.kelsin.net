@@ -4,7 +4,6 @@ title: Huk to EG and LoL Prize Money
 tags:
 - lol
 - mlg
-category: gaming
 ---
 
 After listening to this weeks shows I feel the need to express MY pointless

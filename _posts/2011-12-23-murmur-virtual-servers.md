@@ -7,7 +7,6 @@ tags:
 - mumble
 - murmur
 - python
-category: programming
 ---
 
 I've been running my own mumble server for a while. I installed the

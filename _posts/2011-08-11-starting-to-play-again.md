@@ -6,7 +6,6 @@ tags:
 - anger
 - mice
 - zerg
-category: gaming
 ---
 
 So I've finally started playing again in preperation for the

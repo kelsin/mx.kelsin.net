@@ -7,7 +7,6 @@ tags:
 - grids
 - sass
 - susy
-category: programming
 ---
 
 I spend a lot of time the past few days looking into CSS grid systems. My main

@@ -4,7 +4,6 @@ title: Customizing Work Keyboard
 tags:
 - emacs
 - keyboard
-category: programming
 ---
 
 I got my [Geekhack](http://geekhack.org/index.php) keys today and installed them

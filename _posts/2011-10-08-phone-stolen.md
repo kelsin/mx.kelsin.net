@@ -2,7 +2,6 @@
 layout: post
 title: Phone Stolen
 tags: []
-category: life
 ---
 
 Just had my phone stolen out of my car while traveling in Ithaca.  Accidentally

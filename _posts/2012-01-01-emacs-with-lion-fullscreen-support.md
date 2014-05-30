@@ -6,7 +6,6 @@ tags:
 - fullscreen
 - homebrew
 - lion
-category: programming
 ---
 
 I finally got around to play with full screen apps in lion and love it.

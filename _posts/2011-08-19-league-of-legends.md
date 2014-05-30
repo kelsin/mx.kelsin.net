@@ -3,7 +3,6 @@ layout: post
 title: League of Legends
 tags:
 - lol
-category: gaming
 ---
 
 I've started to try this game. Honestly I love the graphics and a lot of friends

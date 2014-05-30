@@ -12,7 +12,6 @@ status: publish
 type: post
 published: true
 meta: {}
-category: programming
 ---
 
 We've started up doing Tuesday Tech Talks at work and I got to go first by

@@ -6,7 +6,6 @@ tags:
 - nesc2
 - tournament
 - zerg
-category: gaming
 ---
 
 Today I played in the 3rd tournement of the second season of the

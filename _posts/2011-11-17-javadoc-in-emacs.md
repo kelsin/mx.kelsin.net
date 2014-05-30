@@ -5,7 +5,6 @@ tags:
 - emacs
 - java
 - javadoc
-category: programming
 ---
 
 I recently wanted an easier way to look up Java class documentation from Emacs

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Test Blog Post
-category: programming
 tags:
   - programming
   - ruby

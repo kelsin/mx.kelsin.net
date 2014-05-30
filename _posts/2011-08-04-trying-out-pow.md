@@ -9,7 +9,6 @@ status: publish
 type: post
 published: true
 meta: {}
-category: programming
 ---
 
 So this morning I realized how annoying it is that I need to run 3 different

@@ -5,7 +5,6 @@ tags:
 - diablo
 - inferno
 - monk
-category: gaming
 ---
 
 So I've been working my way through Diablo 3's Inferno. I got INSANELY

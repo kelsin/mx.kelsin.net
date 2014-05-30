@@ -4,7 +4,6 @@ title: This is a really really great project
 tags:
 - photography
 - project
-category: life
 ---
 
 [http://www.nazeeabbassi.com/blog/2011/04/self-study/](http://www.nazeeabbassi.com/blog/2011/04/self-study/)

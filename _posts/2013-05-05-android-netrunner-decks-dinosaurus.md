@@ -4,7 +4,6 @@ title: "Android: Netrunner Decks - Dinosaurus"
 tags:
 - gaming
 - netrunner
-category: gaming
 ---
 
 I was interested in

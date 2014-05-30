@@ -5,7 +5,6 @@ tags:
 - mongo
 - boston
 - web applications
-category: programming
 ---
 
 So I attended [Mongo Boston](http://www.10gen.com/events/mongo-boston-2011

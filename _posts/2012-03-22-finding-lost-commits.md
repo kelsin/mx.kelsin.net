@@ -3,7 +3,6 @@ layout: post
 title: Finding lost commits
 tags:
 - git
-category: programming
 ---
 
 {% highlight sh %}

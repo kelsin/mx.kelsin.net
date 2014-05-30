@@ -4,7 +4,6 @@ title: Amazing Janna Games
 tags:
 - janna
 - lol
-category: gaming
 ---
 
 I had some GREAT games last night as Janna in League of Legends. I was playing

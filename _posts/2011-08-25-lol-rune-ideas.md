@@ -2,7 +2,6 @@
 layout: post
 title: LoL Rune ideas
 tags: []
-category: gaming
 ---
 
 **Kennen**

@@ -7,7 +7,6 @@ tags:
 - fairness
 - idiots
 - sovereign
-category: life
 ---
 
 So after moving to CA we clearly don't need our Sovereign Bank accounts

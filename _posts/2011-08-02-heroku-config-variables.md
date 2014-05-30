@@ -5,7 +5,6 @@ tags:
 - git
 - heroku
 - rails
-category: programming
 ---
 
 Deploying on [Heroku](http://www.heroku.com) is such a breeze! I love the way

@@ -5,7 +5,6 @@ tags:
 - art
 - blizzcon
 - travel
-category: life
 ---
 
 So we're in Anaheim now, ready to begin the 2nd part of our trip. We landed in

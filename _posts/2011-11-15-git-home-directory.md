@@ -3,7 +3,6 @@ layout: post
 title: Git Home Directory
 tags:
 - git
-category: programming
 ---
 
 I'm installing some dev stuff onto my windows box and finally want to document

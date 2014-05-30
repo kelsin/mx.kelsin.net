@@ -8,7 +8,6 @@ tags:
 - protoss
 - terran
 - zerg
-category: gaming
 ---
 
 This past week I've finally started playing sc2 again. I started with

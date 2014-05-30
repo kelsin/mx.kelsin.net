@@ -4,7 +4,6 @@ title: Custom Keyboard Keys
 tags:
 - hotkeys
 - keyboard
-category: gaming
 ---
 
 Tonight I installed my custom keys that I ordered from

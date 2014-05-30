@@ -4,7 +4,6 @@ title: Ruby Language Presentation
 tags:
 - presentation
 - ruby
-category: programming
 ---
 
 Today I'm giving a tiny informal talk to co-workers about ruby. Here are the

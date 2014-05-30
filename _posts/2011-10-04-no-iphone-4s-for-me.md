@@ -4,7 +4,6 @@ title: No iPhone 4S for me...
 tags:
 - apple
 - iphone
-category: life
 ---
 
 I would gladly throw my $199 for a new iPhone 4S but according to the apple

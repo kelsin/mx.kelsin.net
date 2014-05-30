@@ -2,7 +2,6 @@
 layout: post
 title: Champions I'm going to try
 tags: []
-category: gaming
 ---
 
 I'm really interested in trying some AD carries. I'm loving Ashe but want to

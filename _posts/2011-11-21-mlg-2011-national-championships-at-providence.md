@@ -4,7 +4,6 @@ title: MLG 2011 National Championships at Providence, RI
 tags:
 - mlg
 - tournament
-category: gaming
 ---
 
 I had a great time this weekend. I want to air my one complaint first.  If you

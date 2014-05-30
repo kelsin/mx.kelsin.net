@@ -3,7 +3,6 @@ layout: post
 title: Creating new MySql databases
 tags:
 - mysql
-category: programming
 ---
 
 I ALWAYS forget how to create new mysql databases... it's horrible. I do this so infrequently which means I also have to google everytime it comes up.
