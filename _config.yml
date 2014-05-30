@@ -49,6 +49,9 @@ exclude:
 analytics:
   google: UA-24773156-4
 
+sharing:
+  facebook: 250011375190248
+
 # Social links
 social:
   github: kelsin
