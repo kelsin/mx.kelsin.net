@@ -17,7 +17,7 @@ title: Tags
   <div id="tags">
     {% for tag in tags %}
     {% assign slug = tag | downcase | replace: ' ', '_' %}
-    <div class="tag {% cycle 'magenta', 'red', 'orange', 'yellow', 'green', 'blue', 'violet' %}">
+    <div class="tag">
       <a class="anchor" id="tag-{{ slug }}"></a>
       <h3>{{ tag | downcase }}</h3>
       <ul>
