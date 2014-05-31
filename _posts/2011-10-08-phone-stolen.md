@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Phone Stolen
-tags: []
+tags:
+  - life
 ---
 
 Just had my phone stolen out of my car while traveling in Ithaca.  Accidentally
@@ -14,4 +15,4 @@ new of course. Complete bullshit.
 
 Notes for others: always have a passcode on your phone. That way the people who
 steal it can't wipe it before you are able to use the location features to find
-the phone :-(
+the phone :frowning:

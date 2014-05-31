@@ -1,32 +1,9 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
-published: true
+layout: post
 title: Wedding Rings
-author: !binary |-
-  S2Vsc2lu
-author_login: !binary |-
-  YWRtaW4=
-author_email: !binary |-
-  a2Vsc2luQHZhbGVmb3IuY29t
-author_url: !binary |-
-  aHR0cDovL2tlbHNpbi5uZXQ=
-excerpt: !binary |-
-  V2UgdHJhdmVsZWQgdXAgdG8gTWFpbmUgdG9kYXkgdG8gdmlzaXQgTGluZGEg
-  Q2xpZmZvcmQncyBzdG9yZS4gVHJpcCB3YXMgbG9uZyBidXQgd2Ugc3VjY2Vl
-  ZGVkIGluIHRoZSBwdXJwb3NlIHdoaWNoIHdhcyB0byBoYXZlIENhaXRsaW4g
-  YW5kIEkgcGljayBvdXQgb3VyIHdlZGRpbmcgcmluZ3Mu
-wordpress_id: 146
-wordpress_url: !binary |-
-  aHR0cDovL2Jsb2cua2Vsc2luLm5ldC8/cD0xNDY=
 date: 2009-04-18 17:08:59.000000000 -07:00
-categories:
-- Thoughts
 tags:
-- Wedding
-comments: []
+  - wedding
 ---
 We traveled up to Maine today to visit <a href="http://www.lindaclifford.com/">Linda Clifford</a>'s store. Trip was long but we succeeded in the purpose which was to have Caitlin and I pick out our wedding rings.
 <p style="text-align: center;"><a href="http://blog.kelsin.net/wp-content/uploads/2009/04/chris-ring.jpg"></a><a rel="lightbox" href="http://blog.kelsin.net/wp-content/uploads/2009/04/shrc3sted1.jpg"><img class="aligncenter size-thumbnail wp-image-153" title="Caitlin's Ring" src="http://blog.kelsin.net/wp-content/uploads/2009/04/shrc3sted1-150x150.jpg" alt="Caitlin's Ring" width="150" height="150" /></a><a rel="lightbox" href="http://blog.kelsin.net/wp-content/uploads/2009/04/shws6wg1.jpg"><img class="aligncenter size-thumbnail wp-image-154" title="Chris's Ring" src="http://blog.kelsin.net/wp-content/uploads/2009/04/shws6wg1-148x150.jpg" alt="Chris's Ring" width="148" height="150" /></a></p>

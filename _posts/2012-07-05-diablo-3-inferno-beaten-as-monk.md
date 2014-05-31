@@ -2,9 +2,8 @@
 layout: post
 title: Diablo 3 Inferno beaten as Monk
 tags:
+- video games
 - diablo
-- inferno
-- monk
 ---
 
 So I've been working my way through Diablo 3's Inferno. I got INSANELY

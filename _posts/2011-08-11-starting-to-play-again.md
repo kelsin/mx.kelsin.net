@@ -2,10 +2,7 @@
 layout: post
 title: Starting to play again
 tags:
-- acceleration
-- anger
-- mice
-- zerg
+  - sc2
 ---
 
 So I've finally started playing again in preperation for the
@@ -31,7 +28,7 @@ it's all I'm going to get before the tourney.
 After Saturday i will definitely post the final pictures of my current keyboard
 setup and the keyboard bag that my Mom helped me make!
 
-**Note about mouse acceleration on a Mac**
+### Note about mouse acceleration on a Mac
 
 I've tried many things on my mac in order to work with my steelseries' mice
 without acceleration. I finally found

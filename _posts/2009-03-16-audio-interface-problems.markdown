@@ -1,49 +1,9 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
-published: true
+layout: post
 title: Audio Interface Problems
-author: !binary |-
-  S2Vsc2lu
-author_login: !binary |-
-  YWRtaW4=
-author_email: !binary |-
-  a2Vsc2luQHZhbGVmb3IuY29t
-author_url: !binary |-
-  aHR0cDovL2tlbHNpbi5uZXQ=
-excerpt: !binary |-
-  QW55IGFkdmljZT8gSSdtIGxvb2tpbmcgZm9yIGFueSBvcHRpb25zIGZvciBh
-  dWRpbyBpbnRlcmZhY2UgYW5kIHJlY29yZGluZyBzb2Z0d2FyZSB0byB1c2Ug
-  d2l0aCBhbiBBcHBsZSBsYXB0b3AuIEknbSBhbHNvIG9wZW4gdG8gZ29pbmcg
-  YmFjayB0byBNT1RVIGZvciBhdWRpbyBpbnRlcmZhY2UuIEFueXRoaW5nIHRo
-  YXQncyBzb2xpZCBhbmQgd29ya3Mgd2VsbCB3aXRoIHRoZSBBcHBsZSBMYXB0
-  b3AuIFNvbGlkIGVub3VnaCB0byBnaWcgd2l0aCE=
-wordpress_id: 115
-wordpress_url: !binary |-
-  aHR0cDovL2Jsb2cua2Vsc2luLm5ldC8/cD0xMTU=
 date: 2009-03-16 21:23:59.000000000 -07:00
-categories:
-- Music
 tags:
-- Music
-- Recording
-- Zendrum
-- Apple
-comments:
-- id: 2734
-  author: Mauvis Ledford
-  author_email: !binary |-
-    c3dpdGNoc3RhdGVtZW50QGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL3d3dy5yZWFkeXN0YXRlNC5jb20=
-  date: !binary |-
-    MjAwOS0wOC0wNSAxMjoyNzo1OSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOS0wOC0wNSAxNzoyNzo1OSAtMDcwMA==
-  content: ! "The Motu 828's have always served me well - the newer ones can even
-    work without a PC. For portability check out an Mbox.\r\n\r\nBest,\r\n\r\nMauvis"
+  - music
 ---
 So a long time ago I had a Echo Gina 20-bit audio card. I recorded my first album with it. It was great. I upgraded it eventually for a Layla 20-bit. This card was also great. Both of these were PCI card devices and worked flawlessly.
 

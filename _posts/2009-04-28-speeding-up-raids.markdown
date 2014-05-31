@@ -1,28 +1,10 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
-published: true
+layout: post
 title: Speeding Up Raids
-author: !binary |-
-  S2Vsc2lu
-author_login: !binary |-
-  YWRtaW4=
-author_email: !binary |-
-  a2Vsc2luQHZhbGVmb3IuY29t
-author_url: !binary |-
-  aHR0cDovL2tlbHNpbi5uZXQ=
-wordpress_id: 159
-wordpress_url: !binary |-
-  aHR0cDovL2Jsb2cua2Vsc2luLm5ldC8/cD0xNTk=
 date: 2009-04-28 12:47:19.000000000 -07:00
-categories:
-- Games
 tags:
-- WoW
-- Games
-comments: []
+  - video games
+  - wow
 ---
 The one thing I do think I do well is keep people moving during raids. From the first Karazhan runs I started leading I got a reputation for being very impatient and speed oriented. This wasn't a goal but I think some usefull tips did come from this.
 

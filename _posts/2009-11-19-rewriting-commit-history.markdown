@@ -1,34 +1,9 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
-published: true
+layout: post
 title: Rewriting Commit History
-author: !binary |-
-  S2Vsc2lu
-author_login: !binary |-
-  YWRtaW4=
-author_email: !binary |-
-  a2Vsc2luQHZhbGVmb3IuY29t
-author_url: !binary |-
-  aHR0cDovL2tlbHNpbi5uZXQ=
-excerpt: !binary |-
-  UmVjZW50bHkgYXQgd29yayBJIHdhcyB3b3JraW5nIG9uIGEgc21hbGwgYnVn
-  IGZpeCBnaXQgYnJhbmNoIHRoYXQgaGFkIE1BTlkgc21hbGwgY29tbWl0cyBk
-  b2luZyByZWxhdGl2ZWx5IHRoZSBzYW1lIHRoaW5nLiBJIHJlYWxseSB3YW50
-  ZWQgdG8gZ28gdGhyb3VnaCBhbmQgY2xlYW4gdXAgdGhlIGNvbW1pdCBtZXNz
-  YWdlcyB0byBtYWtlIHRoZW0gdW5pZm9ybSBhbmQgYWN0dWFsbHkgbmVlZGVk
-  IHRvIGNoYW5nZSBzb21lIG9mIHRoZSBjb21taXRzIHRvby4=
-wordpress_id: 229
-wordpress_url: !binary |-
-  aHR0cDovL2Jsb2cua2Vsc2luLm5ldC8/cD0yMjk=
 date: 2009-11-19 10:05:10.000000000 -08:00
-categories:
-- Computers
 tags:
-- Git
-comments: []
+  - git
 ---
 Recently at work I was working on a small bug fix git branch that had MANY small commits doing relatively the same thing. I really wanted to go through and clean up the commit messages to make them uniform and actually needed to change some of the commits too.
 

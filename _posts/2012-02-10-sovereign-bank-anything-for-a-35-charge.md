@@ -2,11 +2,7 @@
 layout: post
 title: ! 'Sovereign Bank: Anything for a $35 charge'
 tags:
-- charges
-- consumer
-- fairness
-- idiots
-- sovereign
+- life
 ---
 
 So after moving to CA we clearly don't need our Sovereign Bank accounts

@@ -1,33 +1,10 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
-published: true
+layout: post
 title: Instant PhpBB3 Speed Improvements
-author: !binary |-
-  S2Vsc2lu
-author_login: !binary |-
-  YWRtaW4=
-author_email: !binary |-
-  a2Vsc2luQHZhbGVmb3IuY29t
-author_url: !binary |-
-  aHR0cDovL2tlbHNpbi5uZXQ=
-excerpt: !binary |-
-  WGNhY2hlIGNhbid0IGdldCBhbnkgc2ltcGxlci4gTm93IG15IHBocGJiIGZv
-  cnVtIHBhZ2VzIGxvYWQgSU5TVEFOVExZLiBJdCdzIGFic29sdXRlbHkgYW1h
-  emluZyBhbmQgYXdlc29tZS4=
-wordpress_id: 223
-wordpress_url: !binary |-
-  aHR0cDovL2Jsb2cua2Vsc2luLm5ldC8/cD0yMjM=
 date: 2009-10-02 18:48:37.000000000 -07:00
-categories:
-- Computers
 tags:
-- Debian
-- Server
-- Php
-comments: []
+  - servers
+  - php
 ---
 Recently at work we've installed a php accelerator onto one of our php apps. We were having load problems on the box (<a href="http://moodle.org/">Moodle</a> installs) and the accelerator helped solve the problem. This got me thinking and I decided to install an accelerator on my <a href="http://www.linode.com/index.cfm">Linode</a> in order to speed up my <a href="http://forums.cakeordeath-guild.com">World of Warcraft guild forums</a> (a <a href="http://www.phpbb.com/">phpbb3</a> install)
 

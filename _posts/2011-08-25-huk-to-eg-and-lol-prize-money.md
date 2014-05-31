@@ -2,14 +2,14 @@
 layout: post
 title: Huk to EG and LoL Prize Money
 tags:
-- lol
-- mlg
+- league of legends
+- sc2
 ---
 
 After listening to this weeks shows I feel the need to express MY pointless
 opinion on the interwebs so...
 
-**Huk to EG**
+## Huk to EG
 
 This is awesome. Grats to Huk! If you get a life changing deal, you take it. I'm
 very happy for him and I'm going to love rooting for Huk and Idra at the next
@@ -24,7 +24,7 @@ comes from this fact. There aren't many teams that can offer this amount of
 money to players. Once more teams get money I think this type of thing will
 happen more and I think everyone will benefit.
 
-**LoL**
+## League of Legends
 
 Watching LoL is NOTHING like watching sc2. I don't know what the future holds
 for these things, but I'm super glad that these companies are able to announce

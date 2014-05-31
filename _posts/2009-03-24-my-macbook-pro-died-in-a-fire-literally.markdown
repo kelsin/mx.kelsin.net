@@ -1,52 +1,9 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
-published: true
+layout: post
 title: My Macbook Pro died in a fire (literally)
-author: !binary |-
-  S2Vsc2lu
-author_login: !binary |-
-  YWRtaW4=
-author_email: !binary |-
-  a2Vsc2luQHZhbGVmb3IuY29t
-author_url: !binary |-
-  aHR0cDovL2tlbHNpbi5uZXQ=
-excerpt: !binary |-
-  SSB3YXMgaG9waW5nIG15IGxhcHRvcCB3YXMganVzdCBvbiBhbm90aGVyIHBs
-  YW5lIGJ1dCBhbiBlbWFpbCBmcm9tIEFwcGxlIGNvbmZpcm1lZCBteSBmZWFy
-  cy4gTXkgb3JpZ2luYWwgbGFwdG9wIGRlZmluaXRlbHkgZGllZCBpbiBhIGZp
-  cmUgb3ZlciBpbiBKYXBhbi4gTXkgb3JkZXIgbm93IGhhcyBhIG5ldyAkMC4w
-  MCBsYXB0b3Agb24gaXQgdGhhdCdzIGJlaW5nIHByb2Nlc3NlZCAobm90IHNo
-  aXBwZWQgeWV0KS4gVGhlIGVtYWlsIHNhaWQgdGhlIG5ldyBsYXB0b3Agd291
-  bGQgYmUgZXhwZWRpdGVkIGJ1dCB0aGUgb3JkZXIgcGFnZSBzdGlsbCBzYXlz
-  IDItNCBkYXlzIGZvciBidWlsZGluZyBhbmQgdGhlbiAyLTUgZGF5cyBmb3Ig
-  c2hpcHBpbmcuIEkgaG9wZSB0aGF0J3Mgbm90IHRydWUgYnV0IEkgd2lsbCBj
-  YWxsIGxhdGVyIHRvIGZpbmQgb3V0IGZvciBzdXJlLg==
-wordpress_id: 122
-wordpress_url: !binary |-
-  aHR0cDovL2Jsb2cua2Vsc2luLm5ldC8/cD0xMjI=
 date: 2009-03-24 13:01:33.000000000 -07:00
-categories:
-- Computers
 tags:
-- Apple
-comments:
-- id: 26
-  author: SoreThumb
-  author_email: !binary |-
-    U29yZVRodW1iQGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL3d3dy50aGVuYXRld2F5Lm5ldA==
-  date: !binary |-
-    MjAwOS0wMy0yNCAxMzoyMzoxMSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOS0wMy0yNCAxODoyMzoxMSAtMDcwMA==
-  content: ! "That's absolutely horrible.  Not only the tragic loss of life, but the
-    loss of a plane, a runway, all the flights, and the items inside...\r\n\r\nHigh
-    winds.. lame... <:|\r\n\r\nI'm sorry to hear about this, dude.  Hopefully you
-    get your laptop soon!"
+  - music
 ---
 <a href="http://news.bbc.co.uk/2/hi/asia-pacific/7958367.stm">News story</a>
 

@@ -1,41 +1,9 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
-published: true
+layout: post
 title: UPS has no clue what they are doing
-author: !binary |-
-  S2Vsc2lu
-author_login: !binary |-
-  YWRtaW4=
-author_email: !binary |-
-  a2Vsc2luQHZhbGVmb3IuY29t
-author_url: !binary |-
-  aHR0cDovL2tlbHNpbi5uZXQ=
-wordpress_id: 134
-wordpress_url: !binary |-
-  aHR0cDovL2Jsb2cua2Vsc2luLm5ldC8/cD0xMzQ=
 date: 2009-03-28 12:12:29.000000000 -07:00
-categories:
-- Computers
 tags:
-- Apple
-- UPS
-comments:
-- id: 27
-  author: SoreThumb
-  author_email: !binary |-
-    U29yZVRodW1iQGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL3d3dy50aGVuYXRld2F5Lm5ldA==
-  date: !binary |-
-    MjAwOS0wMy0yOCAxMzo0MjoxMSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOS0wMy0yOCAxODo0MjoxMSAtMDcwMA==
-  content: ! "I wonder why fate and nature is giving you such a hard time just to
-    get your laptop?\r\n\r\nI mean, it's not like you've done anything to deserve
-    this :/  I'm sorry to hear about the ineptitude of UPS. :/"
+  - life
 ---
 So this morning I check my tracking info and it says that the package is in Watertown MA and that the delivery date is Monday. I decide to call them and find out if it's possible for me to pick it up. The automatic phone system says "You're package is out for delivery".
 

@@ -2,8 +2,7 @@
 layout: post
 title: "Android: Netrunner Decks - Dinosaurus"
 tags:
-- gaming
-- netrunner
+- board games
 ---
 
 I was interested in
@@ -34,36 +33,36 @@ awesome and dinosaurus is wicked cute!
 
 ###[First Dinosaurus Desk][1] (40 cards)
 
-* [Chaos Theory: Wunderkind][2] 
+* [Chaos Theory: Wunderkind][2]
 
 **Event** (23)
 
-* 3 [Diesel][3] 
-* 3 [Infiltration][4] 
-* 3 [Modded][5] 
+* 3 [Diesel][3]
+* 3 [Infiltration][4]
+* 3 [Modded][5]
 * 3 [Special Order][6]  &bull;&bull;&bull;&bull;&bull; &bull;
-* 3 [Sure Gamble][7] 
-* 3 [Test Run][8] 
-* 3 [The Maker's Eye][9] 
-* 2 [Tinkering][10] 
+* 3 [Sure Gamble][7]
+* 3 [Test Run][8]
+* 3 [The Maker's Eye][9]
+* 2 [Tinkering][10]
 
 **Hardware** (10)
 
-* 2 [Akamatsu Mem Chip][11] 
+* 2 [Akamatsu Mem Chip][11]
 * 3 [Cyberfeeder][12]  &bull;&bull;&bull;
-* 2 [Dinosaurus][13] 
-* 3 [The Personal Touch][14] 
+* 2 [Dinosaurus][13]
+* 3 [The Personal Touch][14]
 
 **Icebreaker** (4)
 
-* 1 [Crypsis][15] 
+* 1 [Crypsis][15]
 * 1 [Femme Fatale][16]  &bull;
-* 1 [Gordian Blade][17] 
-* 1 [Snowball][18] 
+* 1 [Gordian Blade][17]
+* 1 [Snowball][18]
 
 **Program** (3)
 
-* 1 [Magnum Opus][19] 
+* 1 [Magnum Opus][19]
 * 1 [Medium][20]  &bull;&bull;&bull;
 * 1 [Nerve Agent][21]  &bull;&bull;
 

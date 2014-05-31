@@ -2,7 +2,6 @@
 layout: post
 title: Custom Keyboard Keys
 tags:
-- hotkeys
 - keyboard
 ---
 

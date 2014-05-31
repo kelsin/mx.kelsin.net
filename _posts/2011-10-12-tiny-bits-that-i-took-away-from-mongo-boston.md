@@ -2,9 +2,7 @@
 layout: post
 title: Tiny bits that I took away from Mongo Boston
 tags:
-- mongo
-- boston
-- web applications
+- programming
 ---
 
 So I attended [Mongo Boston](http://www.10gen.com/events/mongo-boston-2011
@@ -18,8 +16,7 @@ I basically took away a couple of things from these talks.
 - Denormalizing is OK! I forget this a lot. Don't be afraid to denormalize in
   Mongo when it speeds things up. When you can cut out a database query by
   putting a piece of data in a joined document AND the main document do it!
--
-  [Covered indexes](http://www.mongodb.org/display/DOCS/Retrieving+a+Subset+of+Fields#RetrievingaSubsetofFields-CoveredIndexes):
+- [Covered indexes](http://www.mongodb.org/display/DOCS/Retrieving+a+Subset+of+Fields#RetrievingaSubsetofFields-CoveredIndexes):
   are cool. Read up about them.
 - While you don't have full transactions, many things can be done atomically
   with Mongo's fancy

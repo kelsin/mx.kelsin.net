@@ -2,8 +2,7 @@
 layout: post
 title: Amazing Janna Games
 tags:
-- janna
-- lol
+  - league of legends
 ---
 
 I had some GREAT games last night as Janna in League of Legends. I was playing

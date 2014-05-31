@@ -1,35 +1,8 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
-published: true
 title: Htmlize bug or How I formatted my code from last post
-author: !binary |-
-  S2Vsc2lu
-author_login: !binary |-
-  YWRtaW4=
-author_email: !binary |-
-  a2Vsc2luQHZhbGVmb3IuY29t
-author_url: !binary |-
-  aHR0cDovL2tlbHNpbi5uZXQ=
-excerpt: !binary |-
-  SSByZWNlbnRseSBzdHVibGVkIGFjcm9zcyB0aGlzIHBvc3Qgd2hlcmUgUnVz
-  bGFuIG91dGxpbmVzIGEgZ3JlYXQgY3VzdG9tIEVtYWNzIGZ1bmN0aW9uIGZv
-  ciBzbGlnaHRseSBlZGl0aW5nIGh0bWxpemUgb3V0cHV0IGZvciBibG9nIHBv
-  c3RzLiBUaGUgb25seSBwcm9ibGVtIGlzIHRoZSBjdXJyZW50IGh0bWxpemUg
-  ZG9lc24ndCB3b3JrIHdpdGggY3ZzIEVtYWNzIHdoaWNoIEkgYW0gdXNpbmcu
-wordpress_id: 73
-wordpress_url: !binary |-
-  aHR0cDovL2Jsb2cua2Vsc2luLm5ldC8/cD03Mw==
 date: 2009-02-23 22:50:19.000000000 -08:00
-categories:
-- Computers
 tags:
-- Emacs
-- Htmlize
-- Code
-comments: []
+  - emacs
 ---
 I recently stubled across <a title="Htmlize your erland code buffer" href="http://ruslanspivak.com/2007/08/18/htmlize-your-erlang-code-buffer/">this post</a> where Ruslan outlines a great custom Emacs function for slightly editing htmlize output for blog posts. The only problem is the current htmlize doesn't work with <a title="Debian Emacs Snapshot" href="http://emacs.orebokech.com/">cvs Emacs</a> which I am using.
 

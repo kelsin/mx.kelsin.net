@@ -1,27 +1,9 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
-published: true
+layout: post
 title: Update in Laptop Saga
-author: !binary |-
-  S2Vsc2lu
-author_login: !binary |-
-  YWRtaW4=
-author_email: !binary |-
-  a2Vsc2luQHZhbGVmb3IuY29t
-author_url: !binary |-
-  aHR0cDovL2tlbHNpbi5uZXQ=
-wordpress_id: 130
-wordpress_url: !binary |-
-  aHR0cDovL2Jsb2cua2Vsc2luLm5ldC8/cD0xMzA=
 date: 2009-03-26 20:05:11.000000000 -07:00
-categories:
-- Computers
 tags:
-- Apple
-comments: []
+  - music
 ---
 This morning I was REALLY happy when I woke up to a UPS tracking email saying the laptop would get here tomorrow! Then at about 10:30am the tracking info removed the estimated date. I got worried.
 

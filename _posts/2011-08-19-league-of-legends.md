@@ -2,7 +2,7 @@
 layout: post
 title: League of Legends
 tags:
-- lol
+  - league of legends
 ---
 
 I've started to try this game. Honestly I love the graphics and a lot of friends
@@ -32,19 +32,19 @@ I'd used
 to come up with most of the choices, and to figure out that I wanted to buy this
 pack.
 
--   **Tanking**
+## Tanking
 
 I think the turtle is cute so he's going to be my first pick. I would probably
 try Amumu next and Cho'Gath (standard dude) after that. I was going to possible
 try Amumu first since people say he's great, but since he's banned a lot in
 ranked games I decided Rammus might be a better choice.
 
--   **AD Carry**
+## AD Carry
 
 Tristana and Teemo are too cute to pass up! I got the Riot Girl Tristana skin
 due to the facebook promo so I'm going to start there.
 
--   **AP Carry**
+## AP Carry
 
 Annie and Kennen for the same reasons as above. There are so many characters in
 these roles that picking ones that are cute seem fine! I got the goth annie skin
@@ -52,12 +52,12 @@ in the collectors pack and Kennen was on sale so I bought him as well. I didn't
 buy a Kennen skin since honestly his skins are not very cool... I like his
 purple outfit just fine.
 
--   **Supporter**
+## Supporter
 
 The guide talked about Janna a lot for this so I'm going to try her first with
 the big cow dude being my second choice!
 
--   **Offtank + Jungle**
+## Offtank + Jungle
 
 Warwick seems like a common choice for both roles so I'm going to choose him
 first. My roommate likes playing him so I'm not expecting to play this a lot. I

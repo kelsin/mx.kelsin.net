@@ -1,34 +1,10 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
-published: true
+layout: post
 title: Rails App Templates
-author: !binary |-
-  S2Vsc2lu
-author_login: !binary |-
-  YWRtaW4=
-author_email: !binary |-
-  a2Vsc2luQHZhbGVmb3IuY29t
-author_url: !binary |-
-  aHR0cDovL2tlbHNpbi5uZXQ=
-excerpt: !binary |-
-  SSBmaW5hbGx5IGdvdCBhcm91bmQgdG8gY3JlYXRpbmcgYSBydWJ5IGFwcCB0
-  ZW1wbGF0ZS4gT2YgY291cnNlIG15IHJlY2VudCBydWJ5IHdvcmsgaXMgbm90
-  IGNlbnRlcmVkIGFyb3VuZCBjcmVhdGluZyBuZXcgYXBwcyBidXQgSSdtIHN0
-  aWxsIGdsYWQgSSBkaWQgaXQuIFdpbGwgc2F2ZSBteSBzb21lIHRpbWUhDQo=
-wordpress_id: 141
-wordpress_url: !binary |-
-  aHR0cDovL2Jsb2cua2Vsc2luLm5ldC8/cD0xNDE=
 date: 2009-04-17 10:45:33.000000000 -07:00
-categories:
-- Computers
 tags:
-- Code
-- Ruby
-- Ruby on Rails
-comments: []
+  - programming
+  - ruby
 ---
 I finally got around to creating a ruby app template. Of course my recent ruby work is not centered around creating new apps but I'm still glad I did it. Will save my some time!
 

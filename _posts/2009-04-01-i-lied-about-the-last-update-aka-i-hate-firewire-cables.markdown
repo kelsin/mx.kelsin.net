@@ -1,66 +1,9 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
-published: true
+layout: post
 title: I lied about the last update a.k.a. I hate firewire cables!
-author: !binary |-
-  S2Vsc2lu
-author_login: !binary |-
-  YWRtaW4=
-author_email: !binary |-
-  a2Vsc2luQHZhbGVmb3IuY29t
-author_url: !binary |-
-  aHR0cDovL2tlbHNpbi5uZXQ=
-excerpt: !binary |-
-  QW55d2F5LCBzaW5jZSB0aGlzIG1vcm5pbmcgSSd2ZSBiZWVuIGxpc3Rlbmlu
-  ZyB0byBpVHVuZXMgb24gbXkgbGFwdG9wIHZpYSB0aGUgRHVldCBhdCB3b3Jr
-  IGFuZCBubyBzdGF0aWMgc28gZmFyLiBMZXNzb24gbGVhcm5lZD8gQWx3YXlz
-  IGhhdmUgc3BhcmUgY2FibGVzIHRvIHRlc3Qgd2l0aCE=
-wordpress_id: 139
-wordpress_url: !binary |-
-  aHR0cDovL2Jsb2cua2Vsc2luLm5ldC8/cD0xMzk=
 date: 2009-04-01 10:23:52.000000000 -07:00
-categories:
-- Computers
-- Music
 tags:
-- Music
-- Recording
-- Apple
-comments:
-- id: 34
-  author: SoreThumb
-  author_email: !binary |-
-    U29yZVRodW1iQGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL3d3dy50aGVuYXRld2F5Lm5ldA==
-  date: !binary |-
-    MjAwOS0wNC0wMSAxMDozOTozNSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOS0wNC0wMSAxNTozOTozNSAtMDcwMA==
-  content: ! "I'm impressed that both Apogee and Apple didn't give you much hassle.\r\n\r\nThough,
-    re: Apple, they put you through a lot!  If you had to suffer now, I'm sure they
-    would've spoiled all their efforts. :)\r\n\r\nBtw, Apogee.. kinda funny.  Last
-    time I heard from a company with that name, they made PC games.."
-- id: 35
-  author: Kelsin
-  author_email: !binary |-
-    a2Vsc2luQHZhbGVmb3IuY29t
-  author_url: !binary |-
-    aHR0cDovL2tlbHNpbi5uZXQ=
-  date: !binary |-
-    MjAwOS0wNC0wMSAxMDo1MDo1MiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOS0wNC0wMSAxNTo1MDo1MiAtMDcwMA==
-  content: Yeah, I had a TON of apogee shareware games. This Apogee is technically
-    Apogee Digital I think and they make very high end A/D and D/A converters and
-    pre-amps for recording studios. Recently in a partnership with Apple they made
-    two consumer end products. The 2-in 2-out Duet interface and the 8-in 8-out Ensemble.
-    Both are expensive due to the quality of the pre-amps in them. I decided to go
-    for it with this setup for the quality and since they are supposed to "just work"
-    with apple gear.
+  - music
 ---
 So when I got my macbook I spent all evening installing BFD2, Logic Studio (with all content) and World of Warcraft (plus other blizzard games, go <a href="http://battle.net">battle.net</a>!). The next day (Sunday) I immediately started recording the proposal song. 
 

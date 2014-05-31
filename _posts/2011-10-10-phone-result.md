@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Phone Result
-tags: []
+tags:
+  - life
 ---
 
 So I ended up buying a new iPhone 4s on the apple website.

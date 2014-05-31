@@ -1,38 +1,9 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
-published: true
+layout: post
 title: Git Ignoring already committed (tracked) files
-author: !binary |-
-  S2Vsc2lu
-author_login: !binary |-
-  YWRtaW4=
-author_email: !binary |-
-  a2Vsc2luQHZhbGVmb3IuY29t
-author_url: !binary |-
-  aHR0cDovL2tlbHNpbi5uZXQ=
-excerpt: !binary |-
-  SSB1c2UgPGEgaHJlZj0iaHR0cDovL3phZ2Fka2Eudm0uYnl0ZW1hcmsuY28u
-  dWsvbWFnaXQvIj5tYWdpdDwvYT4gb24gPGEgaHJlZj0iaHR0cDovL3d3dy5n
-  bnUub3JnL3NvZnR3YXJlL2VtYWNzLyI+ZW1hY3M8L2E+IHRvIGRvIG15IGdp
-  dCBtYW5hZ2VtZW50IGFuZCBJIGhhdGUgc2VlaW5nIHRoYXQgdGhpcyBjb250
-  cm9sbGVyIGhhcyBhIGNoYW5nZSBpbiBpdCAoc2FtZSB3aXRoIHVzaW5nICJn
-  aXQtc3RhdHVzIikuIEkgZG9uJ3Qgd2FudCB0byBhY2NpZGVudGFsbHkgY29t
-  bWl0IHRoaXMgY2hhbmdlIGVpdGhlci4gVGhlIHNpbXBsZSBhbnN3ZXIgdG8g
-  dGhpcyBpcyB0byB0ZWxsIGdpdCB0byBtYXJrIHRoaXMgZmlsZSBhcyAibm90
-  IGNoYW5nZWQi
-wordpress_id: 211
-wordpress_url: !binary |-
-  aHR0cDovL2Jsb2cua2Vsc2luLm5ldC8/cD0yMTE=
 date: 2009-08-05 12:12:42.000000000 -07:00
-categories:
-- Computers
 tags:
-- Code
-- Git
-comments: []
+  - git
 ---
 In my current local development environment for work I don't have access to our authentication mechanism. Our rails site uses a cookie from our main site. In order to ignore this I commonly edit my controllers with a line like:
 

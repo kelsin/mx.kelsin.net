@@ -1,52 +1,9 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
-published: true
+layout: post
 title: iPhone is bought
-author: !binary |-
-  S2Vsc2lu
-author_login: !binary |-
-  YWRtaW4=
-author_email: !binary |-
-  a2Vsc2luQHZhbGVmb3IuY29t
-author_url: !binary |-
-  aHR0cDovL2tlbHNpbi5uZXQ=
-excerpt: !binary |-
-  V2UgYm91Z2h0IGlQaG9uZXMuIFdlIGRpZCBpdCBvbmx5IGFuZCBzdXJwcmlz
-  aW5nIHRoZSBwcm9jZXNzIHdhcyBlYXN5LiBJIHNlbGVjdGVkIHRoYXQgd2Ug
-  d2FudGVkIHRvIHVwZ3JhZGUgYm90aCBvZiBvdXIgcGhvbmVzIGFuZCBjaG9z
-  ZSA4Z2lnIFJlZnVyYmlzaGVkIEJsYWNrIGlQaG9uZXMgZm9yIGJvdGggQ2Fp
-  dGxpbiBhbmQgSSBhbmQgaXQgaGVscGVkIHVzIHRocm91Z2ggaXQuIFdlIGtl
-  cHQgb3VyIGZhbWlseSBwbGFuIGV4YWN0bHkgdGhlIHNhbWUgYnV0IGFkZGVk
-  IHRoZSAkMzAvbW9udGggZGF0YSBwbGFuIGZvciBlYWNoIG9mIHVzLiBUaGUg
-  cGhvbmVzIHdlcmUgb25seSAkMTAwIGVhY2ggdGhvdWdoIGFuZCBjYW1lIHdp
-  dGhvdXQgYW55IHNjcmF0Y2hlcy4gV2Ugd2VyZSB2ZXJ5IHBsZWFzZSBhbmQg
-  cHJvYmFibHkgbHVja3kgaW4gdGhpcyByZWdhcmQu
-wordpress_id: 103
-wordpress_url: !binary |-
-  aHR0cDovL2Jsb2cua2Vsc2luLm5ldC8/cD0xMDM=
 date: 2009-02-28 00:17:06.000000000 -08:00
-categories:
-- Computers
 tags:
-- iPhone
-- Sync
-- Email
-- Calendar
-comments:
-- id: 5
-  author: Jordan
-  author_email: !binary |-
-    dHVuYW1hY2NoZWVzZUBob3RtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL2hhbGZhd2FrZS53b3JkcHJlc3MuY29t
-  date: !binary |-
-    MjAwOS0wMi0yOCAwNzo1MjowOSAtMDgwMA==
-  date_gmt: !binary |-
-    MjAwOS0wMi0yOCAxMjo1MjowOSAtMDgwMA==
-  content: You're an inspiration to us all.
+  - phone
 ---
 We bought iPhones. We did it only and surprising the process was easy. I selected that we wanted to upgrade both of our phones and chose 8gig Refurbished Black iPhones for both Caitlin and I and it helped us through it. We kept our family plan exactly the same but added the $30/month data plan for each of us. The phones were only $100 each though and came without any scratches. We were very please and probably lucky in this regard.
 

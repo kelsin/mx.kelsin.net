@@ -1,34 +1,9 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
-published: true
+layout: post
 title: Blue Man Group and then Midatlantic!
-author: !binary |-
-  S2Vsc2lu
-author_login: !binary |-
-  YWRtaW4=
-author_email: !binary |-
-  a2Vsc2luQHZhbGVmb3IuY29t
-author_url: !binary |-
-  aHR0cDovL2tlbHNpbi5uZXQ=
-excerpt: !binary |-
-  U2F3IEJsdWUgTWFuIEdyb3VwIGZvciB0aGUgZmlyc3QgdGltZSBhbG9uZyB3
-  aXRoIHNlZWluZyBNaWRhdGxhbnRpYyBhdCB0aGUgUGFyYWRpc2Ugcm9jayBj
-  bHViIHRoaXMgd2Vla2VuZC4gVGlyaW5nIGJ1dCBleHRyZW1lbHkgZW5qb3lh
-  YmxlIHRpbWUh
-wordpress_id: 206
-wordpress_url: !binary |-
-  aHR0cDovL2Jsb2cua2Vsc2luLm5ldC8/cD0yMDY=
 date: 2009-07-13 22:29:10.000000000 -07:00
-categories:
-- Music
 tags:
-- Music
-- Concert
-- Review
-comments: []
+  - music
 ---
 So I finally got around to seeing <a href="http://blueman.com/">Blue Man Group</a> and I really enjoyed it. I did feel that some sections especially in the beginning were a tad slow. I would have liked to have seen more comedy or music in exchange for some of the drawn out segments. I did enjoy the show a lot however. It was a lot more on the "artsy" side than I originally though it would be. I enjoyed that aspect of it a lot. I felt it had a very nice my-first-artsy-theater-show ring to it.
 

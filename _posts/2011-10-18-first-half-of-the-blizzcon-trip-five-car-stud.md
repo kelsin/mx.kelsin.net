@@ -2,8 +2,6 @@
 layout: post
 title: ! 'First half of the Blizzcon Trip: Five Car Stud and San Diego'
 tags:
-- art
-- blizzcon
 - travel
 ---
 
@@ -32,6 +30,6 @@ before getting too tired. We also saw Horrible Bosses on Sunday while wandering
 around. I enjoyed it (as I knew I would).
 
 Everywhere that we ate was pretty good. I'll be making another blog post later
-detailing all of the places we ate while here :) We are mainly using Yelp to
-find places and so far it's been great. We also used Priceline to find a hotel
-in San Diego and it worked out great!
+detailing all of the places we ate while here :smile:. We are mainly using Yelp
+to find places and so far it's been great. We also used Priceline to find a
+hotel in San Diego and it worked out great!

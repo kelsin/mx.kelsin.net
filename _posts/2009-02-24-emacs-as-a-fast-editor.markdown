@@ -1,41 +1,10 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
-published: true
+layout: post
 title: Emacs as a fast $EDITOR
-author: !binary |-
-  S2Vsc2lu
-author_login: !binary |-
-  YWRtaW4=
-author_email: !binary |-
-  a2Vsc2luQHZhbGVmb3IuY29t
-author_url: !binary |-
-  aHR0cDovL2tlbHNpbi5uZXQ=
-wordpress_id: 99
-wordpress_url: !binary |-
-  aHR0cDovL2Jsb2cua2Vsc2luLm5ldC8/cD05OQ==
 date: 2009-02-24 15:30:13.000000000 -08:00
-categories:
-- Computers
 tags:
-- Linux
-- Xmonad
-- Emacs
-comments:
-- id: 6
-  author: Mick T.
-  author_email: !binary |-
-    bWljay50aW1vbnkrYmxvZy5rZWxzaW4ubmV0QGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL3RpbW9ueS5jb20vbWlja3pibG9n
-  date: !binary |-
-    MjAwOS0wMy0wNSAxNzo1NTo1NiAtMDgwMA==
-  date_gmt: !binary |-
-    MjAwOS0wMy0wNSAyMjo1NTo1NiAtMDgwMA==
-  content: Hey thanks, good tip. Emacs can be slow to start up, and this is a good
-    way to reuse an already running instance.
+  - servers
+  - emacs
 ---
 I've been using vim as my $EDITOR setting for quite some time, and recently started using emacsclient. Two things about this setup bothered me. First I would have to switch to my emacs workspace in Xmonad in order to reach the editor, and when working on svn or git commits my cursor would be where it was last time I edited a commit. Not wanting to change the way Xmonad keeps emacs windows appearing on the same workspace or the way emacs saves my cursor position I found a way around both problems.
 

@@ -1,29 +1,9 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
-published: true
+layout: post
 title: Last Laptop Update
-author: !binary |-
-  S2Vsc2lu
-author_login: !binary |-
-  YWRtaW4=
-author_email: !binary |-
-  a2Vsc2luQHZhbGVmb3IuY29t
-author_url: !binary |-
-  aHR0cDovL2tlbHNpbi5uZXQ=
-wordpress_id: 137
-wordpress_url: !binary |-
-  aHR0cDovL2Jsb2cua2Vsc2luLm5ldC8/cD0xMzc=
 date: 2009-03-28 16:50:03.000000000 -07:00
-categories:
-- Computers
 tags:
-- Music
-- Apple
-- Computer
-comments: []
+  - music
 ---
 So when arriving at the UPS location there is no one there, and no "front counter" area at all. We eventually drive a couple of places and check out this empty room that has some metal detectors in it but no people. I find a security guy that chuckles at me cause he can't figure out why anyone on the phone well tell me to come here to pick up a package since like... no one is here.
 

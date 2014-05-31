@@ -1,47 +1,9 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
-published: true
+layout: post
 title: ! 'The Franklin Kite: Explosions and Batteries'
-author: !binary |-
-  S2Vsc2lu
-author_login: !binary |-
-  YWRtaW4=
-author_email: !binary |-
-  a2Vsc2luQHZhbGVmb3IuY29t
-author_url: !binary |-
-  aHR0cDovL2tlbHNpbi5uZXQ=
-excerpt: !binary |-
-  T3ZlcmFsbCBJJ20gdmVyeSBnbGFkIEkgZ290IHRvIGJlIGEgcGFydCBvZiB0
-  aGlzIEVQIHNpbmNlIEknbSBhIGJpZyBmYW4gb2YgdGhlIG11c2ljLiBJJ20g
-  ZW5qb3lpbmcgZXZlcnkgc29uZyBvbiBpdCBhbmQgY2FuJ3Qgd2FpdCB0byBo
-  ZWFyIHdoYXQgdGhlc2UgZ3V5cyBjb21lIHVwIHdpdGggbmV4dCE=
-wordpress_id: 195
-wordpress_url: !binary |-
-  aHR0cDovL2Jsb2cua2Vsc2luLm5ldC8/cD0xOTU=
 date: 2009-07-07 08:40:21.000000000 -07:00
-categories:
-- Music
 tags:
-- Boston
-- Music
-- Recording
-- Zendrum
-comments:
-- id: 2452
-  author: John Mileham
-  author_email: !binary |-
-    am1pbGVoYW1AZ21haWwuY29t
-  author_url: !binary |-
-    aHR0cDovL3N0dWRpb2JsZWVwLmNvbQ==
-  date: !binary |-
-    MjAwOS0wNy0wNyAxMzo1NDo1NyAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOS0wNy0wNyAxODo1NDo1NyAtMDcwMA==
-  content: For the record, Chris rocks some serious Zendrum.  Thanks for playing on
-    the record and coming to the CD release party last night!
+  - music
 ---
 Last night I went to the CD release party for a co-workers band: <a href="http://www.franklinkite.com/">The Franklin Kite</a>. Their new EP "Explosions and Batteries" is available on iTunes (search "The Franklin Kite") and <a href="http://www.amazon.com/Explosions-Batteries/dp/B002DEUEWA/ref=sr_f3_1?ie=UTF8&s=dmusic&qid=1245720319&sr=103-1">Amazon</a> for those that are interested.
 

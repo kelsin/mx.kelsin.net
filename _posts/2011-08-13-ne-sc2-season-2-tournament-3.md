@@ -2,10 +2,7 @@
 layout: post
 title: NE Sc2 Season 2 Tournament 3
 tags:
-- keyboard
-- nesc2
-- tournament
-- zerg
+  - sc2
 ---
 
 Today I played in the 3rd tournement of the second season of the
@@ -21,7 +18,7 @@ full size
 keyboard along with my mouse, headset and mousepad. It works perfect and looks
 amazing!
 
-  [![Kelsin's Awesome Bag](http://kelsin.smugmug.com/Other/Blog/i-Lx5tCVR/0/Th/kelsin-keyboard-bag-Th.jpg "Kelsin's Awesome Bag")](http://kelsin.smugmug.com/Other/Blog/i-Lx5tCVR/0/L/kelsin-keyboard-bag-L.jpg)
+[![Kelsin's Awesome Bag](http://kelsin.smugmug.com/Other/Blog/i-Lx5tCVR/0/Th/kelsin-keyboard-bag-Th.jpg "Kelsin's Awesome Bag")](http://kelsin.smugmug.com/Other/Blog/i-Lx5tCVR/0/L/kelsin-keyboard-bag-L.jpg)
 
 The first match was with a platinum random player and I won the first ZvP after
 defending his 4 gate. The next game was a ZvZ and went from ling/bling wars into
@@ -32,10 +29,10 @@ The next match was vs a masters player that just beat Boyo. I did not have high
 hopes and both ZvZ's ended very quickly during the bling wars.  The last match
 was vs a very good terran player. The first game I died to tanks and marines
 with helions by him making me multitask! The second game was crazy but ended in
-a base trade and since I didn't have air yet, base trading doesn't work :-(
+a base trade and since I didn't have air yet, base trading doesn't work :cry:
 
 [http://challonge.com/nesc2leagues2t3](http://challonge.com/nesc2leagues2t3)
 
 Hopefully I'll do better at the next tournament with some good practice!
 
-  [![NE Sc2 League Season 2 Tournament 3 Bracket](http://kelsin.smugmug.com/Other/Blog/i-J9f35Xw/0/Th/nesc2leagues2t3-Th.png "NE Sc2 League Season 2 Tournament 3 Bracket")](http://kelsin.smugmug.com/Other/Blog/i-J9f35Xw/0/X2/nesc2leagues2t3-X2.png)
+[![NE Sc2 League Season 2 Tournament 3 Bracket](http://kelsin.smugmug.com/Other/Blog/i-J9f35Xw/0/Th/nesc2leagues2t3-Th.png "NE Sc2 League Season 2 Tournament 3 Bracket")](http://kelsin.smugmug.com/Other/Blog/i-J9f35Xw/0/X2/nesc2leagues2t3-X2.png)

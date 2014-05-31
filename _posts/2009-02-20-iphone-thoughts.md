@@ -2,7 +2,7 @@
 layout: post
 title: iPhone Thoughts
 tags:
-- iphone
+- life
 ---
 
 So Caitlin and I both want to get smart phones at some point. Mainly I want to be able to check email on my phone. Not only is it important for work (the biggest reason) but I'm sick of my old really bad phone.

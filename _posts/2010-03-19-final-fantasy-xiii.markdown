@@ -1,44 +1,9 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
-published: true
+layout: post
 title: Final Fantasy XIII
-author: !binary |-
-  S2Vsc2lu
-author_login: !binary |-
-  YWRtaW4=
-author_email: !binary |-
-  a2Vsc2luQHZhbGVmb3IuY29t
-author_url: !binary |-
-  aHR0cDovL2tlbHNpbi5uZXQ=
-excerpt: !binary |-
-  VGhlIGdhbWUgZXhjZWVkZWQgbXkgZXhwZWN0YXRpb25zIGluIGFsbCBvZiB0
-  aGUgcmlnaHQgd2F5cyE=
-wordpress_id: 240
-wordpress_url: !binary |-
-  aHR0cDovL2Jsb2cua2Vsc2luLm5ldC8/cD0yNDA=
 date: 2010-03-19 14:56:40.000000000 -07:00
-categories:
-- Games
 tags:
-- Games
-- Review
-- Ps3
-- RPG
-comments:
-- id: 6003
-  author: Nefarius
-  author_email: !binary |-
-    YmlvaGF6YXJkQGxpdmUuYmU=
-  author_url: !binary ""
-  date: !binary |-
-    MjAxMC0wNS0wNSAxMjowNDowNSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMC0wNS0wNSAxNzowNDowNSAtMDcwMA==
-  content: haha i second all that i played a few FFs b4 and i didnt quite like them
-    untill i played FF XIII and im hooked... for real... almost at 90hrs of playtime
+  - games
 ---
 I LOVE IT.
 

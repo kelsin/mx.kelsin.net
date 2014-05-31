@@ -1,33 +1,9 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
-published: true
+layout: post
 title: Unpleasant Guitar Center in Framingham
-author: !binary |-
-  S2Vsc2lu
-author_login: !binary |-
-  YWRtaW4=
-author_email: !binary |-
-  a2Vsc2luQHZhbGVmb3IuY29t
-author_url: !binary |-
-  aHR0cDovL2tlbHNpbi5uZXQ=
-excerpt: !binary |-
-  Q29tZSBvbiwgaW4gdGhpcyBkYXkgYW5kIGFnZSB5b3UgbmVlZCB0byBtYWtl
-  IG1lIHdhbnQgdG8gdHJhdmVsIG91dCB0byB5b3VyIHN0b3JlIGluc3RlYWQg
-  b2YgYnV5aW5nIHRoaW5ncyBvbmxpbmUuIFRoaXMgZXhwZXJpZW5jZSAod2hp
-  bGUgbm90IGhvcnJpYmxlIGluIGFueSB3YXkpIGRvZXNuJ3QgbWFrZSBtZSB3
-  YW50IHRvIGdvIGJhY2sgdG8gdGhpcyBzdG9yZSBhdCBhbGwu
-wordpress_id: 253
-wordpress_url: !binary |-
-  aHR0cDovL2Jsb2cua2Vsc2luLm5ldC8/cD0yNTM=
 date: 2010-03-31 10:20:24.000000000 -07:00
-categories:
-- Music
 tags:
-- Music
-comments: []
+- music
 ---
 So I've been meaning to do three things for my music creation.
 

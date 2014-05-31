@@ -2,10 +2,8 @@
 layout: post
 title: Using CanCan in an engine and your app
 tags:
-- authorization
-- cancan
-- engines
-- rails
+  - ruby
+  - programming
 ---
 
 My current project involved an auth gem (internal) that provides user management
@@ -17,18 +15,18 @@ services they can access.
 My main app also needs to provide more cancan rules. In order to do this I'm
 defining a new Ability class in my engine with a namespace:
 
-{% highlight ruby %}
+``` ruby
 # This is your main app/models/ability.rb file in your app
 class Ability < Namespace::Ability
   def initialize(user)
     super
- 
+
     # Main app CanCan rules
   end
 end
-{% endhighlight %}
+```
 
-{% highlight ruby %}
+``` ruby
 # This is in your engine under app/models/namespace/ability.rb
 module Namespace
   class Ability
@@ -38,7 +36,7 @@ module Namespace
     end
   end
 end
-{% endhighlight %}
+```
 
 This is work out well so far. I'll edit if I run into any problems with this
-approach as I add more rules :)
+approach as I add more rules. :smile:

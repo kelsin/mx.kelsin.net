@@ -2,16 +2,9 @@
 layout: post
 title: Git Tech Talk
 tags:
-- beamer
-- git
-- github
-- latex
-- pdf
-- presentation
-status: publish
-type: post
-published: true
-meta: {}
+  - git
+  - latex
+  - presentation
 ---
 
 We've started up doing Tuesday Tech Talks at work and I got to go first by
@@ -29,4 +22,3 @@ I did the presentation in beamer (LaTeX presentation package) and the source is
 up [at github](https://github.com/Kelsin/git-presentation).  I'm attaching the
 resulting mean pdf here. Feel free to send any pull requests to github if you
 have good changes or better ideas for how to format something!
-

@@ -3,19 +3,14 @@ layout: post
 title: Emacs with Lion Fullscreen support (not working)
 tags:
 - emacs
-- fullscreen
-- homebrew
-- lion
 ---
 
-I finally got around to play with full screen apps in lion and love it.
-Of course the one thing missing from my current setup is Emacs full
-screen support.
+I finally got around to play with full screen apps in lion and love it.  Of
+course the one thing missing from my current setup is Emacs full screen support.
 
-I found a version of the emacs homebrew recipe that supports full
-screen:
+I found a version of the emacs homebrew recipe that supports full screen:
 
-{% highlight ruby %}
+``` ruby
 require 'formula'
 
 class Emacs < Formula
@@ -54,7 +49,7 @@ class Emacs < Formula
       p << "https://github.com/downloads/typester/emacs/feature-fullscreen.patch"
       # p << "https://raw.github.com/gist/1012927"
     end
-    
+
     if ARGV.include? "--lion"
       p << "https://raw.github.com/gist/1101856"
     end
@@ -138,16 +133,16 @@ class Emacs < Formula
     return s
   end
 end
-{% endhighlight %}
+```
 
 I installed it and ran it using:
 
-{% highlight sh %}
+``` bash
 cd /usr/local/Library/Formula
 rm emacs.rb
 wget https://raw.github.com/gist/1446720/36c7a3ab0ec8255e361dae11e0803cdf5cd09157/emacs.rb
 brew install emacs --cocoa --lion
-{% endhighlight %}
+```
 
-Unfortunately this patch has lots of issues sizing the fullscreen
-correctly so not a great solution yet.
+Unfortunately this patch has lots of issues sizing the fullscreen correctly so
+not a great solution yet.

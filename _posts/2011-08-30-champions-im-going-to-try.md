@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Champions I'm going to try
-tags: []
+tags:
+  - league of legends
 ---
 
 I'm really interested in trying some AD carries. I'm loving Ashe but want to

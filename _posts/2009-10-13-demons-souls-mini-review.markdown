@@ -1,33 +1,9 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
-published: true
+layout: post
 title: Demon's Souls Mini-Review
-author: !binary |-
-  S2Vsc2lu
-author_login: !binary |-
-  YWRtaW4=
-author_email: !binary |-
-  a2Vsc2luQHZhbGVmb3IuY29t
-author_url: !binary |-
-  aHR0cDovL2tlbHNpbi5uZXQ=
-excerpt: !binary |-
-  SSd2ZSBvbmx5IHBsYXllZCB0aGUgZmlyc3QgbGV2ZWwgb2YgPGEgaHJlZj0i
-  aHR0cDovL3d3dy5kZW1vbnMtc291bHMuY29tLyI+RGVtb24ncyBTb3Vsczwv
-  YT4gc28gZmFyIGJ1dCBpdCdzIHZlcnkgZnVuLg==
-wordpress_id: 227
-wordpress_url: !binary |-
-  aHR0cDovL2Jsb2cua2Vsc2luLm5ldC8/cD0yMjc=
 date: 2009-10-13 08:35:06.000000000 -07:00
-categories:
-- Games
 tags:
-- Games
-- Ps3
-- RPG
-comments: []
+  - video games
 ---
 I've only played the first level of <a href="http://www.demons-souls.com/">Demon's Souls</a> so far but it's very fun.
 

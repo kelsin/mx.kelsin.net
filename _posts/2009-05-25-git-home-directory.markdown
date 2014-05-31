@@ -1,33 +1,9 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
-published: true
+layout: post
 title: Git Home Directory
-author: !binary |-
-  S2Vsc2lu
-author_login: !binary |-
-  YWRtaW4=
-author_email: !binary |-
-  a2Vsc2luQHZhbGVmb3IuY29t
-author_url: !binary |-
-  aHR0cDovL2tlbHNpbi5uZXQ=
-excerpt: !binary |-
-  VGhpcyBpcyBqdXN0IGEgcXVpY2t5IGJ1dCBJIGhhZCB0byBzZXR1cCBhIG5l
-  dyBsYXB0b3AgYW5kIHJlbWVtYmVyZWQgaG93IGVhc3kgaXQgaXMgdG8gaW5z
-  dGFsbCBhIG5ldyBnaXQgaG9tZSBkaXJlY3RvcnkgaW50byBhIGNsZWFuIE1h
-  YyBPUyBYIGhvbWUgZGlyZWN0b3J5Lg==
-wordpress_id: 173
-wordpress_url: !binary |-
-  aHR0cDovL2Jsb2cua2Vsc2luLm5ldC8/cD0xNzM=
 date: 2009-05-25 23:12:18.000000000 -07:00
-categories:
-- Computers
 tags:
-- Apple
-- Git
-comments: []
+  - git
 ---
 This is just a quicky but I had to setup a new laptop and remembered how easy it is to install a new git home directory into a clean Mac OS X home directory. I'm using the Mac OS X git binaries gotten from&nbsp;<a title="Git Mac Binaries" href="http://code.google.com/p/git-osx-installer/downloads/list?can=3" target="_blank">http://code.google.com/p/git-osx-installer/downloads/list?can=3</a> (also linked from the main git site).
 

@@ -2,12 +2,8 @@
 layout: post
 title: Finally playing again
 tags:
-- 1v1
-- 4v4
-- ladder
-- protoss
-- terran
-- zerg
+- video games
+- sc2
 ---
 
 This past week I've finally started playing sc2 again. I started with
@@ -19,7 +15,7 @@ Today was a big day though: I finally started playing 1v1 tonight! I
 decided to start playing random on ladder which is a very scary thought.
 I queued up as random for my placement matches (I guess if enough
 seasons go by you DO have to fully place again which is cool) and of
-course I got zerg 4/5 times and won 3/5 times. The last┬ágame was as a
+course I got zerg 4/5 times and won 3/5 times. The last game was as a
 zerg vs a terran and I lost to pure marines + medivac. I never made
 infestors like always! Darn me.
 

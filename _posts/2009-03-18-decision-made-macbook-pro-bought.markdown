@@ -1,35 +1,9 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
-published: true
+layout: post
 title: Decision Made - Macbook Pro bought
-author: !binary |-
-  S2Vsc2lu
-author_login: !binary |-
-  YWRtaW4=
-author_email: !binary |-
-  a2Vsc2luQHZhbGVmb3IuY29t
-author_url: !binary |-
-  aHR0cDovL2tlbHNpbi5uZXQ=
-excerpt: !binary |-
-  U28gbm93IHRoaW5ncyBhcmUgcHJldHR5IG11Y2ggc2V0LiBBcHBsZSBsYXB0
-  b3AgKEkgY2FuIE5PVCBzZWUgbXlzZWxmIGJ1eWluZyBhIHdpbmRvd3MgbGFw
-  dG9wIGZvciBtdXNpYywgY2FuIHlvdT8pIHdpdGggTG9naWMgU3R1ZGlvIChp
-  bnN0ZWFkIG9mIENha2V3YWxrIFNvbmFyKSBhbmQgYW4gQXBvZ2VlIER1ZXQu
-wordpress_id: 117
-wordpress_url: !binary |-
-  aHR0cDovL2Jsb2cua2Vsc2luLm5ldC8/cD0xMTc=
 date: 2009-03-18 14:00:05.000000000 -07:00
-categories:
-- Computers
-- Music
 tags:
-- Music
-- Zendrum
-- Apple
-comments: []
+  - music
 ---
 Now I can't wait for it to get here.
 

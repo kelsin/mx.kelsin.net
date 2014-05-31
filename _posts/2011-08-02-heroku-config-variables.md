@@ -2,9 +2,8 @@
 layout: post
 title: Heroku Config Variables
 tags:
-- git
-- heroku
-- rails
+  - git
+  - ruby
 ---
 
 Deploying on [Heroku](http://www.heroku.com) is such a breeze! I love the way

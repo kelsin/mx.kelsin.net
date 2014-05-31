@@ -2,19 +2,15 @@
 layout: post
 title: CSS Grid Systems
 tags:
-- compass
 - css
-- grids
-- sass
-- susy
 ---
 
 I spend a lot of time the past few days looking into CSS grid systems. My main
 reason for this was being sick of laying out things myself. There's so much you
 have to do and be careful of when laying out css and due to this I often ended
-up absolutely positioning way too many things. I also was not very careful
-about clearfixing which leads to problems in many designs. I want layout to be a
-bit easier which means learning one of these systems.
+up absolutely positioning way too many things. I also was not very careful about
+clearfixing which leads to problems in many designs. I want layout to be a bit
+easier which means learning one of these systems.
 
 The main problem with some of the old frameworks ([960.gs](http://960.gs/),
 [Blueprint](http://blueprintcss.org/), etc) is that they force you to put stupid
@@ -44,5 +40,5 @@ that it allows you to do any grid system you want. (I realize that blueprint has
 been ported to Compass in the same way, but honestly I like Susy's philosphy
 about things on their homepage so that's why I'm going to try it first).
 
-Very excited to try this out on my current freelance project. Probably
-next week :)
+Very excited to try this out on my current freelance project. Probably next week
+:)

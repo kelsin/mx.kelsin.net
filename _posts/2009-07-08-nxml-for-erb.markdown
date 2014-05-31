@@ -1,35 +1,10 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
-published: true
+layout: post
 title: Nxml for ERB
-author: !binary |-
-  S2Vsc2lu
-author_login: !binary |-
-  YWRtaW4=
-author_email: !binary |-
-  a2Vsc2luQHZhbGVmb3IuY29t
-author_url: !binary |-
-  aHR0cDovL2tlbHNpbi5uZXQ=
-excerpt: !binary |-
-  QmVpbmcgdW5zYXRpc2ZpZWQgd2l0aCBtb3N0IGVyYiBzb2x1dGlvbnMgaW4g
-  RW1hY3MgSSd2ZSBiZWVuIHVzaW5nIG54bWwtbW9kZSBmb3IgZWRpdGluZyBl
-  cmIgYW5kIGp1c3QgZGVhbGluZyB3aXRoIGl0IGNvbXBsYWluaW5nIGFib3V0
-  IGVyYiBzZWN0aW9ucy4gSSBsb3ZlIG54bWwtbW9kZSBmb3IgeG1sL2h0bWwg
-  aW4gZ2VuZXJhbCBhbmQgZG9uJ3QgbGlrZSBkb2luZyBhbnkgZWRpdGluZyB3
-  aXRob3V0IGl0Lg==
-wordpress_id: 202
-wordpress_url: !binary |-
-  aHR0cDovL2Jsb2cua2Vsc2luLm5ldC8/cD0yMDI=
 date: 2009-07-08 08:16:46.000000000 -07:00
-categories:
-- Computers
 tags:
-- Emacs
-- Ruby on Rails
-comments: []
+  - emacs
+  - ruby
 ---
 Being unsatisfied with most erb solutions in Emacs I've been using <a href="http://www.thaiopensource.com/nxml-mode/">nxml-mode</a> for editing erb and just dealing with it complaining about erb sections. I love nxml-mode for xml/html in general and don't like doing any editing without it.
 

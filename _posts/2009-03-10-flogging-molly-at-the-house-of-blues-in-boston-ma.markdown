@@ -1,53 +1,9 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
-published: true
+layout: post
 title: Flogging Molly at the House of Blues in Boston, MA
-author: !binary |-
-  S2Vsc2lu
-author_login: !binary |-
-  YWRtaW4=
-author_email: !binary |-
-  a2Vsc2luQHZhbGVmb3IuY29t
-author_url: !binary |-
-  aHR0cDovL2tlbHNpbi5uZXQ=
-excerpt: !binary |-
-  Qm90dG9tIGxpbmUgaXMgRmxvZ2dpbmcgTW9sbHkgaXMgcmVhbGx5IGdyZWF0
-  IGFuZCBJJ20gdmVyeSBoYXBweSB0aGF0IHRoaXMgcmVjZW50IGFsYnVtIHdh
-  cyBzbyBnb29kLiBJJ3ZlIHdhbnRlZCB0byBzZWUgdGhlbSBsaXZlIGF0IHNv
-  bWUgcG9pbnQgYW5kIEkgdGhpbmsgSSBnb3QgdmVyeSBsdWNreSB3aXRoIHRo
-  ZSB0aW1lIGZyYW1lIGNhdXNlIEkgZW5qb3llZCB0aGUgc2V0IGxpc3QgYSBs
-  b3QsIGV2ZW4gaWYgdGhlIHZlbnVlIHN1Y2tlZCE=
-wordpress_id: 113
-wordpress_url: !binary |-
-  aHR0cDovL2Jsb2cua2Vsc2luLm5ldC8/cD0xMTM=
 date: 2009-03-10 23:19:22.000000000 -07:00
-categories:
-- Music
 tags:
-- Boston
-- Music
-- Concert
-comments:
-- id: 15
-  author: Mick T.
-  author_email: !binary |-
-    bWljay50aW1vbnkrYmxvZy5rZWxzaW4ubmV0QGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL2RvbmVnYWxmcmllbmRzLmJsb2dzcG90LmNvbS8=
-  date: !binary |-
-    MjAwOS0wMy0xMiAxMToxMTozOSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOS0wMy0xMiAxNjoxMTozOSAtMDcwMA==
-  content: ! "McGreevy's (a nasty bar) had a meet-the-band night with them on the
-    10th. On the 16th Dropkick Murphys will be there doing the same, and I almost
-    think they started this Irish-American Punk stuff? The Pogues will be there on
-    the 20th:\r\n\r\nLink on going to McGreevy's events:\r\nhttp://boston.going.com/event-564416;MARCH_MANIA_McGREEVYS\r\n\r\nThanks
-    for tip about the House of Blues; don't get the GA tix. I'm with you on the sitting
-    on concrete and staring through the bars, if they can't provide decent viewing
-    of the band they shouldn't be selling the feckin' tix."
+  - music
 ---
 Flogging Molly is great. They are my favorite Irish-Punk (or whatever you want to call it) band that I've heard so far. Before too many comments fly my way: I haven't listened to very many.
 

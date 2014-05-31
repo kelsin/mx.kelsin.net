@@ -1,60 +1,10 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
-published: true
+layout: post
 title: ! 'Switching Linux''s Again: Ubuntu -> Debian'
-author: !binary |-
-  S2Vsc2lu
-author_login: !binary |-
-  YWRtaW4=
-author_email: !binary |-
-  a2Vsc2luQHZhbGVmb3IuY29t
-author_url: !binary |-
-  aHR0cDovL2tlbHNpbi5uZXQ=
-excerpt: !binary |-
-  SnVzdCBzd2l0Y2hlZCBteSBjb21wYW55IGxhcHRvcCBmcm9tIFVidW50dSB0
-  byBEZWJpYW4uIEkgc3dpdGNoIExpbnV4J3MgYSBsb3QuIFJpZ2h0IG5vdyBJ
-  J20gZG9pbmcgaXQgY2F1c2UgSSByYW4gaW50byBzb21lIG5hc3R5IGJ1Zydz
-  IG9uIFVidW50dS4=
-wordpress_id: 23
-wordpress_url: !binary |-
-  aHR0cDovL2Jsb2cua2Vsc2luLm5ldC8/cD0yMw==
 date: 2009-02-22 23:49:46.000000000 -08:00
-categories:
-- Computers
 tags:
-- Linux
-- Ubuntu
-- Debian
-- Xmonad
-- Emacs
-comments:
-- id: 2797
-  author: patrick
-  author_email: !binary |-
-    anVkZHB3ckBnbWFpbC5jb20=
-  author_url: !binary ""
-  date: !binary |-
-    MjAwOS0wOC0yMSAxMzowNzo1NSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOS0wOC0yMSAxODowNzo1NSAtMDcwMA==
-  content: Wow, great looking emacs theme-- can I ask the name?
-- id: 2798
-  author: Kelsin
-  author_email: !binary |-
-    a2Vsc2luQHZhbGVmb3IuY29t
-  author_url: !binary |-
-    aHR0cDovL2tlbHNpbi5uZXQ=
-  date: !binary |-
-    MjAwOS0wOC0yMSAxMzoxNTo0NSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOS0wOC0yMSAxODoxNTo0NSAtMDcwMA==
-  content: ! "At that point I was just using a theme from the color-theme library:\r\n\r\nGit
-    hub commit page:\r\nhttp://github.com/Kelsin/configs/tree/33aaee85e12251d4cd79c4052f1f07910649e601/.emacs.d/init.el\r\n\r\nThese
-    were the lines in my init.el\r\n;; Color Theme Package\r\n;; http://download.gna.org/color-theme/\r\n(require
-    'color-theme)\r\n(color-theme-charcoal-black)\r\n"
+  - linux
+  - emacs
 ---
 Just switched my company laptop from <a title="Ubuntu Linux" href="http://www.ubuntu.com/">Ubuntu</a> to <a title="Debian GNU/Linux" href="http://www.debian.org/">Debian</a>. I switch Linux's a lot. Right now I'm doing it cause I ran into some nasty bug's on Ubuntu. I'm sure I will be installing Ubuntu on lots of machines soon anyway, especially in April.
 

@@ -1,38 +1,9 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
-published: true
+layout: post
 title: Bayonetta Review
-author: !binary |-
-  S2Vsc2lu
-author_login: !binary |-
-  YWRtaW4=
-author_email: !binary |-
-  a2Vsc2luQHZhbGVmb3IuY29t
-author_url: !binary |-
-  aHR0cDovL2tlbHNpbi5uZXQ=
-excerpt: !binary |-
-  SSA8c3Ryb25nPkxPVkVEPC9zdHJvbmc+IHRoaXMgZ2FtZS4gVGhlIGdhbWVw
-  bGF5IGlzIG91dHN0YW5kaW5nLiBJdCdzIGp1c3QgdGhlIHJpZ2h0IGxlbmd0
-  aC4gSXQgaGFzIHRvbnMgb2YgcmUtcGxheWFiaWxpdHkuIEl0IHJld2FyZHMg
-  eW91IGVhcmx5IGFuZCBvZnRlbiBmb3IgZ29vZCBnYW1lcGxheSBhbmQgdGhl
-  IGNvbWJvL3Jhbmtpbmcgc3lzdGVtIGlzIGVhc3kgdG8gdW5kZXJzdGFuZCB5
-  ZXQgc3VwZXIgaGFyZCEgSXQncyBteSBmYXZvcml0ZSBvdXQgb2YgYWxsIG9m
-  IHRoZSBjb21iYXQtY2VudHJpYy1zdHlsaXplZC1jb21iYXQgZ2FtZXMgSSd2
-  ZSBwbGF5ZWQgeWV0
-wordpress_id: 238
-wordpress_url: !binary |-
-  aHR0cDovL2Jsb2cua2Vsc2luLm5ldC8/cD0yMzg=
 date: 2010-01-29 09:40:04.000000000 -08:00
-categories:
-- Games
 tags:
-- Games
-- Review
-- Xbox360
-comments: []
+  - video games
 ---
 I preordered <a href="http://www.sega.com/platinumgames/bayonetta/">Bayonetta</a> immediately after a friend told me about how awesome it sounded. I had been a big fan of the <a href="http://www.devilmaycry.com/">Devil May Cry</a> series already so it's not a huge leap that I would love this game since it seemed to take the same attitude towards gameplay and style.
 
