@@ -28,6 +28,10 @@ $(function() {
   });
 
   $('.post .body p:has(a img)').each(function(index, elements) {
-    $(elements).find('a').colorbox({ rel: 'gallery-' + index });
+    $(elements).find('a').colorbox({
+      rel: 'gallery-' + index,
+      maxWidth: '95%',
+      maxHeight: '95%'
+    });
   });
 });
