@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My Favorite Twitch Streamers
+redirect_from: /my-favorite-twitch-streamers/
 tags:
   - sc2
   - league of legends

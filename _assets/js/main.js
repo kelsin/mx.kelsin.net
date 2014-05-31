@@ -5,7 +5,6 @@ $(function() {
     // Background
     var headerOffset = Math.max(0, Math.round(scroll / 2.0));
     var footerOffset = 100 + Math.max(0, Math.round(($(document).height() - $(window).height() - scroll) / 2.0));
-    console.log(headerOffset + '/' + footerOffset);
     $('header').css({ 'background-position': 'center ' + headerOffset + 'px' });
     $('footer').css({ 'background-position': 'center -' + footerOffset + 'px' });
 
