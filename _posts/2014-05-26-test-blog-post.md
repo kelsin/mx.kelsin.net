@@ -128,7 +128,7 @@ Content Cell  | Content Cell
 [![Screenshot](http://kelsin.smugmug.com/Computers/Screenshots/i-s34btgV/0/Th/3302048185_f24210531b-Th.jpg)](http://kelsin.smugmug.com/Computers/Screenshots/i-s34btgV/0/L/3302048185_f24210531b-L.jpg)
 [![Screenshot](http://kelsin.smugmug.com/Computers/Screenshots/i-MQNw7HV/0/Th/3302048187_3dd038da05-Th.jpg)](http://kelsin.smugmug.com/Computers/Screenshots/i-MQNw7HV/0/L/3302048187_3dd038da05-L.jpg)
 
-### Group of 3 imaages
+### Group of 3 images
 
 [![Screenshot](http://kelsin.smugmug.com/Computers/Screenshots/i-s34btgV/0/Th/3302048185_f24210531b-Th.jpg)](http://kelsin.smugmug.com/Computers/Screenshots/i-s34btgV/0/L/3302048185_f24210531b-L.jpg)
 [![Screenshot](http://kelsin.smugmug.com/Computers/Screenshots/i-MQNw7HV/0/Th/3302048187_3dd038da05-Th.jpg)](http://kelsin.smugmug.com/Computers/Screenshots/i-MQNw7HV/0/L/3302048187_3dd038da05-L.jpg)

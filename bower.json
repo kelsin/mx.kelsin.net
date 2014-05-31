@@ -18,7 +18,6 @@
   ],
   "dependencies": {
     "jquery": "~2.1.1",
-    "jquery.stellar": "~0.6.2",
     "masonry": "~3.1.5",
     "colorbox": "~1.5.9"
   }

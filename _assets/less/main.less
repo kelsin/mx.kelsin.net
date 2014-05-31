@@ -127,7 +127,7 @@ header, footer {
 /* Header */
 header {
   height: 400px;
-  background: url('/images/background.jpg') no-repeat center top fixed;
+  background: url('/images/background.jpg') no-repeat center top scroll;
   background-size: cover;
   background-color: #000;
   text-align: center;
@@ -188,16 +188,10 @@ header {
   }
 }
 
-@media (max-width: 799px) {
-  header {
-    background-size: 800px auto;
-  }
-}
-
 /* Footer */
 footer {
   height: 200px;
-  background: url('/images/background.jpg') no-repeat center bottom fixed;
+  background: url('/images/background.jpg') no-repeat center 100px scroll;
   background-size: cover;
   background-color: #000;
   text-align: center;
@@ -212,6 +206,12 @@ footer {
     position: absolute;
     top: 0;
     width: 100%;
+  }
+}
+
+@media (max-width: 799px) {
+  header, footer {
+    background-size: 800px auto;
   }
 }
 
