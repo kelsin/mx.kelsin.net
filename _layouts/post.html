@@ -9,10 +9,10 @@ layout: default
       <i class="fa fa-share fa-fw"></i>
       {% assign url = site.url | append: page.url | uri_escape %}
       {% assign title = page.title | uri_escape %}
-      <a class="facebook" href="http://www.facebook.com/sharer.php?u={{ url }}&title={{ title }}"></a>
-      <a class="twitter" href="https://twitter.com/intent/tweet?url={{ url }}&text={{ title }}&via={{ site.sharing.twitter | uri_escape }}"></a>
+      <a class="facebook" href="http://www.facebook.com/sharer.php?u={{ url }}&amp;title={{ title }}"></a>
+      <a class="twitter" href="https://twitter.com/intent/tweet?url={{ url }}&amp;text={{ title }}&amp;via={{ site.sharing.twitter | uri_escape }}"></a>
       <a class="gplus" href="http://plus.google.com/share?url={{ url }}"><img src="/images/gplus.png" alt="Share on Google+"/></a>
-      <a class="reddit" href="http://reddit.com/submit?url={{ url }}&title={{ title }}"></a>
+      <a class="reddit" href="http://reddit.com/submit?url={{ url }}&amp;title={{ title }}"></a>
     </p>
     {% if page.tags.size > 0 %}
     <ul class="tags">
