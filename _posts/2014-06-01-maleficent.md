@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Maleficent
-image: http://kelsin.smugmug.com/Blog/i-V8j697X/0/L/maleficent.jpg
+image: http://kelsin.smugmug.com/Blog/i-V8j697X/0/O/maleficent.jpg
 tags:
   - review
   - movie
