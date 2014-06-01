@@ -4,7 +4,7 @@ title: Simple bash script to help install my windows environment
 redirect_from: /simple-bash-script-to-help-install-my-windows-environment/
 tags:
   - windows
-  - programing
+  - programming
 ---
 
 Today I made a quick bash script to automate a lot of what I talked about

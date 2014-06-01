@@ -40,7 +40,7 @@
     <script>var disqus_shortname = 'mxkelsin';</script>
   </head>
   <body class="nojs">
-    <header data-stellar-background-ratio="0.5">
+    <header{% if page.image %} style="background-image: url('{{ page.image }}');"{% endif %}>
       <h1{% if page.id %} class="post"{% endif %}>{% if page.id %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</h1>
       {% unless page.id %}
       <h2>{% if page.title %}{{ page.title }}{% else %}{{ site.desc }}{% endif %}</h2>
@@ -55,7 +55,7 @@
       {{ content }}
     </div>
 
-    <footer data-stellar-background-ratio="0.5">
+    <footer{% if page.image %} style="background-image: url('{{ page.image }}');"{% endif %}>
       <div class="shadow"></div>
       <div class="bar"></div>
       {% assign group = 'footer' %}
