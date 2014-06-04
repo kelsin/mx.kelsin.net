@@ -39,6 +39,7 @@ exclude:
   - .bundle
   - .ruby-version
   - bower.json
+  - CNAME
   - Gemfile
   - Gemfile.lock
   - gulpfile.js
