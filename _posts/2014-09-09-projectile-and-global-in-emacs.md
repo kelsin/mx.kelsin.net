@@ -19,7 +19,7 @@ to search only files in a certain project. I want to be able to grep from the
 project root and open files from the project root. It looks like
 [projectile](https://github.com/bbatsov/projectile) solves both problems!
 
-## Tags
+## Global
 
 Along with projectile comes [GNU Global](http://www.gnu.org/software/global/)
 support! Getting this just involved installing ctags and global:
