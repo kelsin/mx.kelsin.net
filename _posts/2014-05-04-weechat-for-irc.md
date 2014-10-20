@@ -19,7 +19,7 @@ I have sasl authentication working with [freenode](http://freenode.net/) and my
 password is encrypted in my
 [weechat config](https://github.com/Kelsin/configs/tree/master/.weechat) so that
 I can feel safe posting it to github. You can follow the directions in the blog
-post that I linked up above for how to setup the sec.conf file in weechat.\
+post that I linked up above for how to setup the sec.conf file in weechat.
 
 Heres a bunch of settings that I used to get freenode working and weechat
 looking good in my [solarized](http://ethanschoonover.com/solarized) terminal:
