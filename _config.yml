@@ -25,7 +25,7 @@ redcarpet:
     - smart
 
 # Syntax Highlighting
-pygments: true
+highlighter: pygments
 
 # Approved github jekyll plugins
 gems:
