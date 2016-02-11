@@ -13,16 +13,8 @@ paginate: 5
 encoding: UTF-8
 
 # Markdown settings
-markdown: redcarpet
-redcarpet:
-  extensions:
-    - no_intra_emphasis
-    - fenced_code_blocks
-    - autolink
-    - tables
-    - with_toc_data
-    - strikethrough
-    - smart
+kramdown:
+  input: GFM
 
 # Syntax Highlighting
 highlighter: pygments
@@ -30,6 +22,7 @@ highlighter: pygments
 # Approved github jekyll plugins
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
   - jekyll-redirect-from
   - jemoji
 
