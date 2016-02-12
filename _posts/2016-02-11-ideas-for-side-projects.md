@@ -11,13 +11,13 @@ I wanted to jot down my ideas for projects that I could work on.
 
 I still would like to work on a site meant for people to jot down lyric ideas for songs. It will use a system where you put numbers on top of syllables so that you can remember the beat. This is the system I used on note paper during high school and though it would make a cool web app.
 
-## Wasteing Time
+## Wasting Time
 
 A tiny app to help you figure out what to do during free time. You put in a bunch of things that you would like to do. For example I would put in things like:
 
 * Practice Sc2
 * Rank up in Hearthstone
-* Work on Wasteing Time
+* Work on Wasting Time
 * Learn about Firebase
 * Edit Kapit
 
