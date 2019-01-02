@@ -2,6 +2,9 @@
   "name": "mxkelsin",
   "version": "0.0.1",
   "description": "M-x Kelsin Blog",
+  "scripts": {
+    "build": "gulp build"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:Kelsin/kelsin.github.io.git"
