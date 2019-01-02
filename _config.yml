@@ -20,7 +20,7 @@ kramdown:
 highlighter: rouge
 
 # Approved github jekyll plugins
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-redirect-from
