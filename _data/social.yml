@@ -1,36 +1,50 @@
 github:
   name: Github
   icon: github
+  style: fab
   url: https://github.com/%u
 facebook:
   name: Facebook
   icon: facebook
+  style: fab
   url: https://facebook.com/%u
 twitter:
   name: Twitter
   icon: twitter
+  style: fab
   url: https://twitter.com/%u
 linkedin:
   name: LinkedIn
   icon: linkedin
+  style: fab
   url: https://linkedin.com/in/%u
 gplus:
   name: Google+
   icon: gplus
+  style: fab
   url: https://plus.google.com/u/0/+%u
 rdio:
   name: Rdio
-  icon: headphones
+  icon: rdio
+  style: fab
   url: https://rdio.com/people/%u
 lastfm:
   name: Last.fm
-  icon: headphones
+  icon: lastfm
+  style: fab
   url: http://www.last.fm/user/%u
 spotify:
   name: Spotify
-  icon: headphones
+  icon: spotify
+  style: fab
   url: https://open.spotify.com/user/%u
 bandcamp:
   name: Bandcamp
-  icon: music
+  icon: bandcamp
+  style: fab
   url: http://%u.bandcamp.com/
+boardgamegeek:
+  name: BoardGameGeek
+  icon: dice
+  style: fas
+  url: https://www.boardgamegeek.com/user/%u

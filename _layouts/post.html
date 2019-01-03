@@ -3,22 +3,13 @@ layout: default
 ---
 <article class="post">
   <div class="meta">
-    <p class="date"><i class="fa fa-calendar fa-fw"></i>&nbsp;{{ page.date | date_to_string }}</p>
-    <p class="comments"><i class="fa fa-comment fa-fw"></i>&nbsp;<a href="{{ page.url }}#disqus_thread">0 Comments</a></p>
-    <p class="share">
-      <i class="fa fa-share fa-fw"></i>
-      {% assign url = site.url | append: page.url | uri_escape %}
-      {% assign title = page.title | uri_escape %}
-      <a class="facebook" href="http://www.facebook.com/sharer.php?u={{ url }}&amp;title={{ title }}"></a>
-      <a class="twitter" href="https://twitter.com/intent/tweet?url={{ url }}&amp;text={{ title }}&amp;via={{ site.sharing.twitter | uri_escape }}"></a>
-      <a class="gplus" href="http://plus.google.com/share?url={{ url }}"><img src="/images/gplus.png" alt="Share on Google+"/></a>
-      <a class="reddit" href="http://reddit.com/submit?url={{ url }}&amp;title={{ title }}"></a>
-    </p>
+    <p class="date"><i class="fas fa-calendar fa-fw"></i>&nbsp;{{ page.date | date_to_string }}</p>
+    <p class="comments"><i class="fas fa-comment fa-fw"></i>&nbsp;<a href="{{ page.url }}#disqus_thread">0 Comments</a></p>
     {% if page.tags.size > 0 %}
     <ul class="tags">
       {% assign tags = page.tags | sort: 'downcase' %}
       {% for tag in tags %}
-      <li>{% if forloop.first %}<i class="fa fa-tags fa-fw"></i>&nbsp;{% endif %}<a href="/tags/#tag-{{ tag | downcase | replace: ' ', '_' }}">{{ tag | downcase }}</a></li>
+      <li>{% if forloop.first %}<i class="fas fa-tags fa-fw"></i>&nbsp;{% endif %}<a href="/tags/#tag-{{ tag | downcase | replace: ' ', '_' }}">{{ tag | downcase }}</a></li>
       {% endfor %}
     </ul>
     {% endif %}

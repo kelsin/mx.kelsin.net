@@ -21,9 +21,11 @@ highlighter: rouge
 
 # Approved github jekyll plugins
 plugins:
-  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-assets
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-sitemap
   - jemoji
 
 # Ignore files meant for building
@@ -49,11 +51,18 @@ sharing:
 # Social links
 social:
   github: kelsin
+  boardgamegeek: Kelsin
+  bandcamp: kelsin
   facebook: kelsin
   twitter: kelsin5
-  # rdio: kelsin
   spotify: kelsin5
-  bandcamp: kelsin
-  # linkedin: kelsin
-  # gplus: ChristopherGiroir
-  # lastfm: Kelsin
+
+# Jekyll Archives
+jekyll-archives:
+  enabled: all
+  layouts:
+    tag: archive
+    category: archive
+    year: year
+    month: month
+    day: day

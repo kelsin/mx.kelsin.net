@@ -8,24 +8,10 @@ title: Tags
   <div id="cloud">
     {% for tag in tags %}
     {% assign number = site.tags[tag].size %}
-    {% assign slug = tag | downcase | replace: ' ', '_' %}
+    {% assign slug = tag | downcase | replace: ' ', '-' %}
     <span class="{% if number == 1 %}small{% elsif number <= 5 %}medium{% elsif number <= 10 %}large{% else %}huge{% endif %}">
-      <a href="#tag-{{ slug }}">{{ tag | downcase }}</a>
+      <a href="/tag/{{ slug }}">{{ tag | downcase }}</a>
     </span>
-    {% endfor %}
-  </div>
-  <div id="tags">
-    {% for tag in tags %}
-    {% assign slug = tag | downcase | replace: ' ', '_' %}
-    <div class="tag">
-      <a class="anchor" id="tag-{{ slug }}"></a>
-      <h3>{{ tag | downcase }}</h3>
-      <ul>
-        {% for post in site.tags[tag] %}
-        <li><a href="{{post.url}}">{{post.title}}</a></li>
-        {% endfor %}
-      </ul>
-    </div>
     {% endfor %}
   </div>
 </section>
