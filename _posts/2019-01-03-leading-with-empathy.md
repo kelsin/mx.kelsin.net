@@ -36,14 +36,15 @@ blocks and understand what makes your employees happy. Why are they working for
 you in the first place? What would keep them here? What would make them leave? I
 try to ask these questions directly during 1 on 1's in order to keep things in
 perspective. You're not always going to get completely honest answers, but in my
-opinion, my data is better than less.
+opinion, more data is better than less.
 
 When working on decisions that affect the business and my team, I try to
 remember what it was like to be in their shoes and try to anticipate how they
 will react. The more I know them, the easier this is. Often anticipating
 reactions can help lead to better ideas that will keep their goals in
-perspective. If I think a certain employee won't respond well if they don't have
-input early, I try to bring them in early.
+perspective. When I know that a certain employee likes being brought into ideas
+early, I will make sure that happens. If I know a certain employee likes working
+on certain projects, I will try to make that happen.
 
 You've never able to apply these ideas in every situation, but the more you do,
 the more trust you earn and the less of an impact the other times will have on
