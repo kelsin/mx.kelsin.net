@@ -20,12 +20,6 @@ $(function() {
     }
   });
 
-  $('#tags').masonry({
-    columnWidth: 220,
-    gutter: 20,
-    itemSelector: '.tag'
-  });
-
   $('.post .body p:has(a img)').each(function(index, elements) {
     $(elements).find('a').colorbox({
       rel: 'gallery-' + index,

@@ -3,7 +3,12 @@ layout: default
 ---
 <article class="post">
   <div class="meta">
-    <p class="date"><i class="fas fa-calendar fa-fw"></i>&nbsp;{{ page.date | date_to_string }}</p>
+    <p class="date">
+      <i class="fas fa-calendar fa-fw"></i>
+      &nbsp;<a href="/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.date | date: '%d' }}/">{{ page.date | date: "%-d" }}</a>
+      &nbsp;<a href="/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/">{{ page.date | date: "%b" }}</a>
+      &nbsp;<a href="/{{ page.date | date: '%Y' }}/">{{ page.date | date: "%Y" }}</a>
+    </p>
     <p class="comments"><i class="fas fa-comment fa-fw"></i>&nbsp;<a href="{{ page.url }}#disqus_thread">0 Comments</a></p>
     {% if page.tags.size > 0 %}
     <ul class="tags">

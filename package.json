@@ -22,7 +22,6 @@
   "devDependencies": {
     "gulp": "^3.6.2",
     "gulp-autoprefixer": "0.0.7",
-    "gulp-bower": "0.0.5",
     "gulp-changed": "^0.3.0",
     "gulp-concat": "^2.2.0",
     "gulp-less": "^1.2.3",
