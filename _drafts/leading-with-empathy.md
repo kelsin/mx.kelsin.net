@@ -27,7 +27,9 @@ One of the goals when leading an organization is thinking about it's future
 growth and development. You want your employees to want to work their for a long
 time. There are a lot of books about this topic and one of my favorites is [The
 Progress
-Principle](https://hbr.org/product/the-progress-principle-using-small-wins-to-ignite-joy-engagement-and-creativity-at-work/10106-HBK-ENG).
+Principle](https://hbr.org/product/the-progress-principle-using-small-wins-to-ignite-joy-engagement-and-creativity-at-work/10106-HBK-ENG). Another
+book that often talks about these same ideas is [Give and
+Take](https://www.amazon.com/Give-Take-Helping-Others-Success/dp/0143124986).
 
 In order to put these ideas into practice you have to be able to find road
 blocks and understand what makes your employees happy. Why are they working for
