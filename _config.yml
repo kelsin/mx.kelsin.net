@@ -28,6 +28,10 @@ plugins:
   - jekyll-sitemap
   - jemoji
 
+# Include normally ignored files
+include:
+  - _redirects
+
 # Ignore files meant for building
 exclude:
   - .bowerrc
@@ -59,10 +63,13 @@ social:
 
 # Jekyll Archives
 jekyll-archives:
-  enabled: all
+  enabled:
+    - tags
+    - year
+    - month
+    - day
   layouts:
-    tag: archive
-    category: archive
+    tag: tag
     year: year
     month: month
     day: day

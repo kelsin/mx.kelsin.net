@@ -1,0 +1,4 @@
+{% if include.tags.size > 0 %}
+{% assign tags = include.tags | sort: 'downcase' %}
+<p class="tags"><i class="fa fa-tags fa-fw"></i>&nbsp;{% for tag in tags %}<a href="/tag/{{ tag | downcase | replace: ' ', '-' }}">{{ tag | downcase }}</a>{% unless forloop.last %},&nbsp;{% endunless %}{% endfor %}</p>
+{% endif %}

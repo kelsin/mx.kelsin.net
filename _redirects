@@ -1,0 +1,3 @@
+# Redirect default Netlify subdomain to primary domain
+https://mx-kelsin.netlify.com/* https://mx.kelsin.net/:splat 301!
+http://mx-kelsin.netlify.com/* http://mx.kelsin.net/:splat 301!

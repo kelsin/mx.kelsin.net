@@ -1,0 +1,6 @@
+<p class="date">
+  <i class="fas fa-calendar fa-fw"></i>
+  <a href="/{{ include.date | date: '%Y' }}/{{ include.date | date: '%m' }}/{{ include.date | date: '%d' }}/">{{ include.date | date: "%-d" }}</a>
+  <a href="/{{ include.date | date: '%Y' }}/{{ include.date | date: '%m' }}/">{{ include.date | date: "%b" }}</a>
+  <a href="/{{ include.date | date: '%Y' }}/">{{ include.date | date: "%Y" }}</a>
+</p>
