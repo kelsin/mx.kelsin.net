@@ -5,16 +5,16 @@ layout: default
   <div class="meta">
     <p class="date">
       <i class="fas fa-calendar fa-fw"></i>
-      &nbsp;<a href="/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.date | date: '%d' }}/">{{ page.date | date: "%-d" }}</a>
-      &nbsp;<a href="/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/">{{ page.date | date: "%b" }}</a>
-      &nbsp;<a href="/{{ page.date | date: '%Y' }}/">{{ page.date | date: "%Y" }}</a>
+      <a href="/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.date | date: '%d' }}/">{{ page.date | date: "%-d" }}</a>
+      <a href="/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/">{{ page.date | date: "%b" }}</a>
+      <a href="/{{ page.date | date: '%Y' }}/">{{ page.date | date: "%Y" }}</a>
     </p>
     <p class="comments"><i class="fas fa-comment fa-fw"></i>&nbsp;<a href="{{ page.url }}#disqus_thread">0 Comments</a></p>
     {% if page.tags.size > 0 %}
     <ul class="tags">
       {% assign tags = page.tags | sort: 'downcase' %}
       {% for tag in tags %}
-      <li>{% if forloop.first %}<i class="fas fa-tags fa-fw"></i>&nbsp;{% endif %}<a href="/tags/#tag-{{ tag | downcase | replace: ' ', '_' }}">{{ tag | downcase }}</a></li>
+      <li>{% if forloop.first %}<i class="fas fa-tags fa-fw"></i>&nbsp;{% endif %}<a href="/tag/{{ tag | downcase | replace: ' ', '-' }}">{{ tag | downcase }}</a></li>
       {% endfor %}
     </ul>
     {% endif %}
