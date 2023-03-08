@@ -11,6 +11,7 @@ baseurl: /
 url: http://mx.kelsin.net
 paginate: 5
 encoding: UTF-8
+timezone: America/Los_Angeles
 
 # Markdown settings
 kramdown:
