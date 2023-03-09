@@ -9,7 +9,7 @@ tags:
 While waiting for a friend to arrive in order to watch
 [Scream](https://www.imdb.com/title/tt11245972/) I decided to see what else
 [Paramount+](https://www.paramountplus.com/home/) had available and decided to
-rewatch [Snowpiercer](https://www.imdb.com/title/tt1706620/)
+rewatch [Snowpiercer](https://www.imdb.com/title/tt1706620/).
 
 ### [Snowpiercer](https://www.imdb.com/title/tt1706620/)
 
